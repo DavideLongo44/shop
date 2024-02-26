@@ -1,0 +1,103 @@
+body {
+  background-color:rgb(104, 190, 244);
+}
+
+/* Logo */
+img {
+  width: 500px;
+  height: 310px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+  
+ /* Motto */
+h1 {
+  text-align:center;
+  margin-right: 90px;
+}
+
+/* Motto */
+h1 {
+text-align:center;
+margin-right: 90px;
+}
+
+/* Buttons */
+.btn-outline-warning {
+  text-align: center;
+  width: 15%;
+  margin: auto;
+  margin-right: 1%;
+  background-color: orange;
+  color: white;
+  border: 0cap;
+  font-size: 20px;
+  cursor: pointer;
+  }
+
+  /* Add Button */
+.add-button {
+  width: 200px !important;
+  height: 50px;
+  margin-left: -10px;
+}
+
+  /* Specihern Button */
+.save-button {
+width: 190px !important;
+}
+
+  /* Zurücksetzen Button */
+.reset-button {
+width: 190px !important;
+}
+
+  /* Liste löschen Button */
+.deletelist-button {
+width: 190px !important;
+}
+
+/* Download list Button */
+.downloadlist-button {
+  margin-left: 1186px;
+  width: 12%;
+}
+
+.container {
+width: 80%;
+margin: auto;
+}
+
+.input-group {
+width: 100%;
+text-align: center;
+}
+
+.justify-content-md-center {
+margin: auto;
+}
+  /* Bearbeiten Icon */
+.bi-pencil-square {
+  text-align: center;
+  margin-left: 50px;
+  cursor: pointer;
+}
+  /* Löschen Icon */
+.bi-trash {
+  text-align: center;
+  margin-left: 37px;
+  cursor: pointer;
+}
+
+.einkäufer {
+width: 320px !important;
+}
+
+.einkaufslisten {
+  text-align: center;
+  border: 0cap;
+  height: 41.5px;
+}
