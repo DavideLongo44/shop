@@ -5,7 +5,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-#stage2
+#stage2 
 RUN npm run build
 FROM nginx:1.21
 COPY --from=builder /Einkaufsliste/build /usr/share/nginx/html
