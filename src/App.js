@@ -8,7 +8,7 @@ function App() {
 // der Text des Eingabefeldes, die Menge pro Produkt, die aktuelle ID und die Kategorie)
 
 // Zustand für die Liste von Produkten 
-const [items, setItems] = useState([]); 
+const [items, setItems] = useState([]);  
 // Zustand für den Hinzufügen/Aktualisieren-Button 
 const [isAddButton, setIsAddButton] = useState(true); 
 // Zustand für die Menge pro Produkt 
