@@ -1,7 +1,11 @@
 body {
-  background-color:rgb(104, 190, 244);
+  background-color:rgb(5, 5, 5);
 }
 
+
+.logo-drehen {
+  animation: rotate 16s  infinite;
+}
 /* Logo */
 img {
   width: 500px;

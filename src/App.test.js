@@ -1,18 +1,24 @@
-require("chromedriver");
-var assert = require('assert');
+import { render, fireEvent, waitFor } from '@testing-library/react';
+import App from './App';
 
-const {Builder, By, Key} = require('selenium-webdriver');
+test('updateItemList function adds an item to the list', async () => {
+  const { getByPlaceholderText, getByText, getByDisplayValue } = render(<App />);
 
-describe('Einkaufliste', function() {
-  it('Name hinzufügen', async function(){
-    let driver = new Builder().forBrowser('chrome').build();
-    await driver.get('http://shopwise.webhop.me/');
-    await driver.findElement(By.className("col-2 fs-5 rounded text-center border-0 w-25 p-2 einkäufer")).sendKeys("banana")
-    await driver.findElement(By.className("col-2 fs-5 rounded text-center border-0 w-26")).sendKeys("chiquita")
-    //
-    //await driver.findElement(By.id("menge")).selectByIndex(2)
-    await driver.findElement(By.className("btn btn-outline-warning add-button")).click()
-    await driver.findElement(By.className("bi bi-trash text-danger fs-4")).click()
-    //await driver.quit()
-  })
-})
+  // Eingabefelder und Hinzufügen/Aktualisieren-Button finden
+  const nameInput = getByPlaceholderText('Name des Einkäufers');
+  const productInput = getByPlaceholderText('Neues Produkt');
+  const addButton = getByText('Hinzufügen');
+
+  // Benutzernamen und Produktname eingeben
+  fireEvent.change(nameInput, { target: { value: 'Max' } });
+  fireEvent.change(productInput, { target: { value: 'Milch' } });
+
+  // Hinzufügen/Aktualisieren-Button klicken
+  fireEvent.click(addButton);
+
+  // Überprüfen, ob das Element zur Liste hinzugefügt wurde
+  await waitFor(() => {
+    const listItem = getByDisplayValue('Milch');
+    expect(listItem).toBeInTheDocument();
+  });
+});
