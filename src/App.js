@@ -190,7 +190,7 @@ const [selectedUser, setSelectedUser] = useState(null);
   // JSX für die Darstellung der Komponente
   return (
     <>
-      <div className="container mt-4">
+      <div className="container mt-3">
         <div className="input-group row justify-content-md-center gap-3">
           {/* Eingabefeld für den Namen des Einkäufers */}
           <input
@@ -349,7 +349,10 @@ const [selectedUser, setSelectedUser] = useState(null);
         >
           Liste Download
         </button>
+        
+        
     </>
+    
   );
 }
 
