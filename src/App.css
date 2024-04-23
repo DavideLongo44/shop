@@ -31,10 +31,10 @@ h1 {
 
 /* Hinzufügen-Button */
 .add-button {
-  display: block; /* Ensures the button is displayed as a block element */
+ 
   width: 300%; /* Makes the button fill the width of its container */
   
-  color: #fff; /* Sets the text color to white */
+ 
   border: none; /* Removes the button border */
   
   margin-top: 10px; /* Adds some space above the button */
