@@ -104,6 +104,14 @@ resource "aws_instance" "ansible" {
   tags = {
     Name = "ansible"
   }
+  user_data = <<-EOF
+  #!/bin/bash
+  yum update -y
+  yum install -y docker
+  systemctl enable docker
+  systemctl start docker
+  docker run -d -p 80:80 bestione/shopwize:latest
+  EOF
 }
 
 resource "aws_instance" "ansible2" {
