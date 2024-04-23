@@ -1,103 +1,151 @@
+/* Hintergrundfarbe des Body */
 body {
-  background-color:rgb(104, 190, 244);
+  background-color: rgb(104, 190, 244);
 }
 
 /* Logo */
 img {
-  width: 500px;
-  height: 310px;
+  max-width: 100%; /* Setzt die maximale Breite auf 100% des Elterncontainers */
+  height: 310px; /* Setzt die Höhe automatisch, um das Seitenverhältnis beizubehalten */
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  text-align: center;
-}
-  
- /* Motto */
-h1 {
-  text-align:center;
-  margin-right: 90px;
+  margin: 20px auto; /* Zentriert das Logo durch automatische Ränder */
 }
 
 /* Motto */
 h1 {
-text-align:center;
-margin-right: 90px;
+  text-align: center;
+  margin: 20px auto; /* Zentriert das Motto durch automatische Ränder */
 }
 
 /* Buttons */
 .btn-outline-warning {
   text-align: center;
-  width: 15%;
-  margin: auto;
-  margin-right: 1%;
+  width: auto; /* Setzt die Breite basierend auf dem Inhalt */
+  margin: 10px; /* Fügt gleichmäßige Ränder hinzu */
   background-color: orange;
   color: white;
-  border: 0cap;
+  border: none;
   font-size: 20px;
   cursor: pointer;
-  }
+}
 
-  /* Add Button */
+/* Hinzufügen-Button */
 .add-button {
-  width: 200px !important;
+  width: 300; /* Setzt die Breite basierend auf dem Inhalt */
+  max-width: 200px; /* Setzt eine maximale Breite */
   height: 50px;
-  margin-left: -10px;
+  margin: 10px auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
-  /* Specihern Button */
-.save-button {
-width: 190px !important;
-}
-
-  /* Zurücksetzen Button */
-.reset-button {
-width: 190px !important;
-}
-
-  /* Liste löschen Button */
+/* Speichern-Button, Zurücksetzen-Button, Liste löschen-Button */
+.save-button,
+.reset-button,
 .deletelist-button {
-width: 190px !important;
+  width: 190px;
+  margin: 10px;
 }
 
-/* Download list Button */
+/* Download-Liste-Button */
 .downloadlist-button {
-  margin-left: 1186px;
-  width: 12%;
+  width: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
+/* Container */
 .container {
-width: 80%;
-margin: auto;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+  position: relative;
 }
 
+/* Eingabegruppe */
 .input-group {
-width: 100%;
-text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
+/* Zentriert den Inhalt horizontal */
 .justify-content-md-center {
-margin: auto;
-}
-  /* Bearbeiten Icon */
-.bi-pencil-square {
+  margin: auto;
   text-align: center;
-  margin-left: 50px;
-  cursor: pointer;
+  overflow: hidden;
+  width: 100%;
 }
-  /* Löschen Icon */
+
+/* Bearbeiten-Icon, Löschen-Icon */
+.bi-pencil-square,
 .bi-trash {
   text-align: center;
-  margin-left: 37px;
+  margin: 0 auto;
   cursor: pointer;
 }
 
+/* Einkäufer */
 .einkäufer {
-width: 320px !important;
+  width: 190px;
+  margin: 10px;
 }
 
+/* Einkaufslisten */
 .einkaufslisten {
   text-align: center;
-  border: 0cap;
-  height: 41.5px;
+  width: 190px;
+  margin: 10px;
+}
+
+/* Media-Query für kleine Bildschirme */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .einkäufer,
+  .einkaufslisten {
+    width: 100%;
+  }
+
+  .btn-outline-warning.add-button,
+  .btn-outline-warning.save-button,
+  .btn-outline-warning.reset-button,
+  .btn-outline-warning.deletelist-button,
+  .btn-outline-warning.downloadlist-button {
+    width: 100%;
+  }
+
+  .justify-content-md-center {
+    justify-content: center;
+  }
+
+  .table {
+    font-size: 14px;
+  }
+}
+
+/* Eingabegruppe für Text- und Nummerfelder sowie Dropdowns */
+.input-group input[type="text"],
+.input-group input[type="number"],
+.input-group select {
+  width: 190px;
+  margin: 10px;
+}
+
+/* Effekte für das Mouseover-Verhalten des Papierkorbsymbols */
+.bi-trash:hover,
+.btn-outline-warning .bi-trash:hover {
+  transform: scale(1.2);
+}
+
+/* Effekte für das Mouseover-Verhalten des Stiftsymbols */
+.bi-pencil-square:hover,
+.btn-outline-warning .bi-pencil-square:hover {
+  transform: scale(1.2);
 }
