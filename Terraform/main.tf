@@ -116,7 +116,7 @@ resource "aws_instance" "ansible" {
 
 resource "aws_instance" "ansible2" {
   vpc_security_group_ids = [aws_security_group.example_security_group.id]
-  ami                    = "ami-0faab6bdbac9486fb"
+  ami                    = "ami-0f673487d7e5f89ca"
   instance_type          = "t2.micro"
   subnet_id              = aws_subnet.ansible2[0].id
   tags = {
