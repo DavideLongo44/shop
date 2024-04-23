@@ -1,0 +1,101 @@
+Produktname,SKU,Preis (€),Verfügbarkeit
+Baguette,SKU1311,1.99,Ja
+Croissant,SKU1312,0.99,Ja
+Brotlaib,SKU1313,2.49,Ja
+Brötchen,SKU1314,0.49,Ja
+Bauernbrot,SKU1315,3.49,Ja
+Ciabatta,SKU1316,2.29,Ja
+Muffin,SKU1317,1.29,Ja
+Krapfen,SKU1318,1.79,Ja
+Zimtschnecke,SKU1319,1.49,Ja
+Schokoladenkuchen,SKU1320,3.99,Ja
+Obstkuchen,SKU1321,4.49,Ja
+Käsekuchen,SKU1322,3.79,Ja
+Eclairs,SKU1323,2.99,Ja
+Berliner,SKU1324,1.29,Ja
+Pretzel,SKU1325,0.89,Ja
+Bagel,SKU1326,1.99,Ja
+Rosinenbrötchen,SKU1327,0.79,Ja
+Brioche,SKU1328,2.79,Ja
+Käsestange,SKU1329,1.49,Ja
+Kürbiskernbrot,SKU1330,2.99,Ja
+Vollkornbrot,SKU1331,2.29,Ja
+Hörnchen,SKU1332,0.69,Ja
+Käsebrötchen,SKU1333,0.99,Ja
+Apfelstrudel,SKU1334,3.29,Ja
+Erdbeerkuchen,SKU1335,4.99,Ja
+Vanillekipferl,SKU1336,1.79,Ja
+Schwarzbrot,SKU1337,2.49,Ja
+Buttercroissant,SKU1338,1.29,Ja
+Laugenstange,SKU1339,1.19,Ja
+Nusskuchen,SKU1340,3.49,Ja
+Zitronenkuchen,SKU1341,3.99,Ja
+Hefezopf,SKU1342,2.49,Ja
+Franzbrötchen,SKU1343,1.49,Ja
+Roggenbrot,SKU1344,2.79,Ja
+Zitronenmuffin,SKU1345,1.29,Ja
+Schwarzwälder Kirschtorte,SKU1346,5.99,Ja
+Donut,SKU1347,1.19,Ja
+Biskuitrolle,SKU1348,2.79,Ja
+Blätterteiggebäck,SKU1349,1.99,Ja
+Pflaumenkuchen,SKU1350,4.49,Ja
+Karottenkuchen,SKU1351,3.29,Ja
+Schoko-Croissant,SKU1352,1.79,Ja
+Käsekuchen mit Himbeeren,SKU1353,4.79,Ja
+Streuselkuchen,SKU1354,3.49,Ja
+Nussecke,SKU1355,1.99,Ja
+Apfelkuchen,SKU1356,3.79,Ja
+Schnecken,SKU1357,2.29,Ja
+Käsekuchen mit Beeren,SKU1358,4.99,Ja
+Kirschstreusel,SKU1359,3.29,Ja
+Zimtstern,SKU1360,1.49,Ja
+Rhabarberkuchen,SKU1361,4.29,Ja
+Kokosmakronen,SKU1362,2.49,Ja
+Puddingteilchen,SKU1363,1.29,Ja
+Schoko-Banane-Muffin,SKU1364,1.79,Ja
+Brioche mit Rosinen,SKU1365,2.99,Ja
+Nougatkuchen,SKU1366,3.99,Ja
+Mandelhörnchen,SKU1367,1.89,Ja
+Butterkuchen,SKU1368,3.49,Ja
+Käsestange mit Schinken,SKU1369,1.79,Ja
+Schokocroissant mit Nüssen,SKU1370,2.29,Ja
+Baguette mit Oliven,SKU1371,2.99,Ja
+Marzipankuchen,SKU1372,4.49,Ja
+Zitronenbiskuit,SKU1373,2.79,Ja
+Schoko-Praliné-Kuchen,SKU1374,3.79,Ja
+Früchtebrot,SKU1375,3.99,Ja
+Mohnschnecke,SKU1376,1.99,Ja
+Apfelrosen,SKU1377,2.49,Ja
+Feigenbrot,SKU1378,4.29,Ja
+Walnusskuchen,SKU1379,3.49,Ja
+Bananenbrot,SKU1380,2.79,Ja
+Himbeerkuchen,SKU1381,4.99,Ja
+Pfannkuchen,SKU1382,1.79,Ja
+Vanillekrapfen,SKU1383,2.29,Ja
+Kokoskuchen,SKU1384,3.49,Ja
+Nusszopf,SKU1385,2.99,Ja
+Erdnussbutterkekse,SKU1386,1.49,Ja
+Schokoladencroissant,SKU1387,1.99,Ja
+Aprikosenkuchen,SKU1388,3.79,Ja
+Puddingkuchen,SKU1389,3.29,Ja
+Hefeschnecke,SKU1390,1.89,Ja
+Birnenkuchen,SKU1391,4.49,Ja
+Bananenkuchen,SKU1392,3.29,Ja
+Zitronenkrapfen,SKU1393,1.99,Ja
+Hefekuchen mit Streuseln,SKU1394,3.99,Ja
+Orangenkuchen,SKU1395,3.79,Ja
+Nussschnecke,SKU1396,2.49,Ja
+Apfelkrapfen,SKU1397,1.79,Ja
+Käsekuchen mit Mandarinen,SKU1398,4.99,Ja
+Beerenkuchen,SKU1399,3.49,Ja
+Schokomuffin,SKU1400,1.29,Ja
+Blaubeerkuchen,SKU1401,4.79,Ja
+Pfirsichkuchen,SKU1402,3.99,Ja
+Erdbeerkrapfen,SKU1403,1.49,Ja
+Käsekuchen mit Pfirsich,SKU1404,5.49,Ja
+Pflaumenkrapfen,SKU1405,1.29,Ja
+Apfeltaschen,SKU1406,2.99,Ja
+Kürbiskuchen,SKU1407,3.29,Ja
+Marillenkuchen,SKU1408,4.99,Ja
+Bienenstich,SKU1409,2.79,Ja
+Schokoladenpuddingkuchen,SKU1410,3.49,Ja

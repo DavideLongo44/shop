@@ -1,192 +1,149 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 import jsPDF from 'jspdf';
+
 function App() {
-// Zustände für die Liste von Produkten, den Zustand des Hinzufügen/Aktualisieren-Buttons,
-// den Text des Eingabefelds, die Menge pro Produkt, die aktuelle ID und die Kategorie
-// (Zustände für die Liste der Produkte, der Zustand der Schaltfläche Hinzufügen/Aktualisieren,
-// der Text des Eingabefeldes, die Menge pro Produkt, die aktuelle ID und die Kategorie)
+  // Zustände
+  const [items, setItems] = useState([]);
+  const [isAddButton, setIsAddButton] = useState(true);
+  const [quantity, setQuantity] = useState(1);
+  const [unit, setUnit] = useState("stk");
+  const [currentId, setCurrentId] = useState(1000);
+  const [category, setCategory] = useState("Lebensmittel");
+  const [editingItem, setEditingItem] = useState(null);
+  const [userName, setUserName] = useState("");
+  const [savedUsers, setSavedUsers] = useState([]);
+  const [selectedUser, setSelectedUser] = useState(null);
 
-// Zustand für die Liste von Produkten 
-const [items, setItems] = useState([]); 
-// Zustand für den Hinzufügen/Aktualisieren-Button 
-const [isAddButton, setIsAddButton] = useState(true); 
-// Zustand für die Menge pro Produkt 
-const [quantity, setQuantity] = useState(1); 
- // Zustand für die Einheit 
-const [unit, setUnit] = useState("stk");
- // Zustand für die aktuelle ID 
-const [currentId, setCurrentId] = useState(1000);
- // Zustand für die Kategorie 
-const [category, setCategory] = useState("Lebensmittel");
-// Zustand für das zu bearbeitende Element 
-const [editingItem, setEditingItem] = useState(null); 
-// Zustand für den Benutzernamen
-const [userName, setUserName] = useState(""); 
-// Zustand für die Liste der gespeicherten Benutzer
-const [savedUsers, setSavedUsers] = useState([]);  
-// Zustand für den ausgewählten Benutzer 
-const [selectedUser, setSelectedUser] = useState(null); 
-
-  // ID für das Eingabefeld
-  let fieldID = "inputfield_newitem";
-
-  // Effekt für das Laden des Einkaufs des ausgewählten Benutzers
   useEffect(() => {
-    if (selectedUser) {
+    if(selectedUser) {
       setItems(selectedUser.items);
     }
   }, [selectedUser]);
-  // Funktion zum Hinzufügen oder Aktualisieren eines Produkts
 
-  function updateItemList() {
-    const id = currentId;
-    const value = document.getElementById(fieldID).value;
+  // Callback-Funktion zum Abrufen des Preises und Angebots eines Produkts
+  async function fetchPriceAndOffer(itemName) {
+    const url = 'https://price-analytics.p.rapidapi.com/search-by-term';
+    const options = {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/x-www-form-urlencoded',
+        'X-RapidAPI-Key': '8a7f697789msha9cc675e7bcb39ep1bff95jsn95278506a417',
+        'X-RapidAPI-Host': 'price-analytics.p.rapidapi.com'
+      },
+      body: new URLSearchParams({
+        source: 'amazon',
+        country: 'de',
+        values: itemName // Statt 'iphone 11' verwenden Sie den übergebenen Produktnamen
+      })
+    };
   
-    // Neues Element erstellen
+    try {
+      const response = await fetch(url, options);
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      const data = await response.json(); // Angenommen, die API gibt JSON zurück und nicht Nur Text
+      return {
+        price: data.price || 'Nicht verfügbar',
+        onSaleAt: data.onSaleAt || 'Nicht im Angebot'
+      };
+    } catch (error) {
+      console.error('Fehler beim Abrufen der Produktinformationen:', error);
+      return { price: 'Unbekannt', onSaleAt: 'Unbekannt' };
+    }
+  }
+
+  function handleItemInput(e) {
+    if (editingItem) {
+      setEditingItem({
+        ...editingItem,
+        value: e.target.value
+      });
+    }
+  }
+
+  async function updateItemList() {
+    let itemName = editingItem ? editingItem.value : document.getElementById("inputfield_newitem").value;
+    const productDetails = await fetchPriceAndOffer(itemName);
+
     let newItem = {
-      value,
+      value: itemName,
       quantity,
       unit,
-      id,
+      id: currentId,
       category,
+      price: productDetails.price,
+      onSaleAt: productDetails.onSaleAt
     };
-  
-    // Überprüfen, ob der Produktname nicht leer ist
-    if (newItem.value !== "") {
-      // Überprüfen, ob das Element bearbeitet wird
-      if (editingItem !== null) {
-        // Aktualisierte Liste mit bearbeitetem Element erstellen
-        const updatedItems = items.map((item) =>
-          item.id === editingItem.id ? newItem : item
-        );
-        setItems(updatedItems);
-        setEditingItem(null);
-        setIsAddButton(true);
-      } else {
-        // Element zur Liste hinzufügen, wenn es nicht bearbeitet wird
-        setItems([...items, newItem]);
-      }
-      // Eingabefeld zurücksetzen und Zustände aktualisieren
-      document.getElementById(fieldID).value = "";
-      setQuantity(1);
-      setUnit("stk");
+
+    if (editingItem) {
+      const updatedItems = items.map(item => item.id === editingItem.id ? newItem : item);
+      setItems(updatedItems);
+      setEditingItem(null);
+    } else {
+      setItems([...items, newItem]);
       setCurrentId(currentId + 1);
-      setCategory("Lebensmittel");
     }
-  }
-  
-  // Funktion zum Löschen eines Produkts
-  function deleteItem(id) {
-    const isConfirmed = window.confirm("Möchten Sie das Element wirklich löschen?");
-    if (isConfirmed) {
-      const updatedArray = items.filter((item) => item.id !== id);
-      setItems(updatedArray);
-    }
+
+    setIsAddButton(true);
+    setQuantity(1);
+    setUnit("stk");
+    setCategory("Lebensmittel");
   }
 
-  // Funktion zum Starten der Bearbeitung eines Produkts
-  function startEditing(item) {
-    // Bestätigungsdialog für den Start der Bearbeitung anzeigen
-    const isConfirmed = window.confirm("Möchten Sie das Element wirklich bearbeiten?");
-    if (!isConfirmed) {
-      return;
-    }
-    // Bearbeitungsmodus aktivieren und Eingabefelder mit den Werten des ausgewählten Elements füllen
-    setEditingItem(item);
-    setIsAddButton(false);
-    
-    document.getElementById(fieldID).value = item.value;
-    setQuantity(item.quantity);
-    setUnit(item.unit);
-    setCategory(item.category);
+  function deleteItem(idToDelete) {
+    setItems(items.filter(item => item.id !== idToDelete));
   }
-  // Funktion zum Speichern der Einkaufsliste des Benutzers
+
+  function editItem(itemToEdit) {
+    setIsAddButton(false);
+    setEditingItem(itemToEdit);
+  }
+
   function saveUserShopping() {
-    if (userName.trim() === "") {
-      alert("Bitte geben Sie einen Benutzernamen ein.");
+    if (!userName) {
+      alert("Bitte gib erst einen Namen ein.");
       return;
     }
-    
-    const userShopping = {
+
+    const userShoppingData = {
       userName,
-      items: [...items],
+      items
     };
 
+    const newSavedUsers = savedUsers.filter(user => user.userName !== userName);
+    newSavedUsers.push(userShoppingData);
+    setSavedUsers(newSavedUsers);
 
-    // Überprüfen, ob der Benutzer bereits in der gespeicherten Liste existiert
-  const existingUserIndex = savedUsers.findIndex(user => user.userName === userName);
-
-  if (existingUserIndex !== -1) {
-    // Wenn der Benutzer bereits existiert, ersetze die Liste
-    const updatedUsers = [...savedUsers];
-    updatedUsers[existingUserIndex] = userShopping;
-    setSavedUsers(updatedUsers);
-  } else {
-    // Wenn der Benutzer nicht existiert, füge einen neuen Benutzer zur Liste hinzu
-    const updatedUsers = [...savedUsers, userShopping];
-    setSavedUsers(updatedUsers);
-    alert("liste gespeichert! ");
+    setSelectedUser(userShoppingData);
   }
 
-  // Zurücksetzen von Benutzername und Liste
-  //setUserName(""); 
-  setItems([]);
-  // Setzen des ausgewählten Benutzers auf den gerade gespeicherten Benutzer
-  setSelectedUser(userShopping);
- 
-}
-  // Funktion zum Löschen der aktuellen Liste des Benutzers
-  function deleteCurrentUserList() {
-    // Bestätigungsdialog für das Löschen der aktuellen Liste anzeigen
-    const isConfirmed = window.confirm("Möchten Sie die aktuelle Liste wirklich löschen?");
-    if (isConfirmed) {
-      // Liste und ausgewählten Benutzer zurücksetzen
-      setItems([]);
-      setSelectedUser(null);
-      setSavedUsers(savedUsers.filter(user => user.userName !== userName));
-      
-    }
-
+  function downloadList() {
+    const doc = new jsPDF();
+    doc.text(`Einkaufsliste für: ${userName}`, 10, 10);
+    items.forEach((item, index) => {
+      doc.text(`${index + 1}. ${item.value}, Menge: ${item.quantity} ${item.unit}, Kategorie: ${item.category}`, 10, (index + 1) * 10 + 20);
+    });
+    doc.save('Einkaufsliste.pdf');
   }
 
-  // Funktion zum Zurücksetzen der Einkaufsliste
+  function selectUser(userName) {
+    const user = savedUsers.find(u => u.userName === userName);
+    setSelectedUser(user);
+  }
+
   function resetShopping() {
     setUserName("");
     setItems([]);
     setSelectedUser(null);
   }
 
-  // Funktion zum Auswählen eines Benutzers aus der Liste gespeicherter Benutzer
-  function selectUser(user) {
-    setUserName(user.userName);
-    setSelectedUser(user);
+  function deleteUserShopping() {
+    setSavedUsers(savedUsers.filter(user => user.userName !== userName));
+    resetShopping();
   }
-  function downloadList() {
-    const userNameLine = `Name des Käufers: ${userName}`;
-    const listContent = items.map(item => (
-      `${item.value}: ${item.quantity} ${item.unit}, ${item.category}`
-    )).join('\n');
-
-    // Erstelle ein neues PDF-Dokument
-    const pdf = new jsPDF();
-    pdf.setFillColor(104, 190, 244); 
-    pdf.rect(0, 0, pdf.internal.pageSize.width, pdf.internal.pageSize.height, 'F');
-
-    
-    // Füge das Logo deines Projekts zum Dokument hinzu
-    const logoUrl = 'shopwise-high-resolution-logo-transparent.png'; // Ersetze dies durch den Pfad zu deinem Logo
-    pdf.addImage(logoUrl, 'PNG',150, 10, 56, 40); // Passe die Koordinaten und Größe des Logos an
-    pdf.setFont('helvetica');
-    pdf.setFontSize(20);
-    // Füge den Inhalt der Liste zum Dokument hinzu
-    pdf.text(`${userNameLine}\n\nEinkaufsliste:\n${listContent}`, 10, 50);
-    pdf.text(`Danke, dass Sie unsere App nutzen`,10 ,250);
-    
-
-    // Speichere das PDF-Dokument
-    pdf.save('shopping-list.pdf');
-  }
+ 
   // JSX für die Darstellung der Komponente
   return (
     <>
@@ -195,20 +152,16 @@ const [selectedUser, setSelectedUser] = useState(null);
           {/* Eingabefeld für den Namen des Einkäufers */}
           <input
             type="text"
-
             className="col-2 fs-5 rounded text-center border-0 w-25 p-2 einkäufer"
-
             placeholder="Name des Einkäufers"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
           />
           {/* Eingabefeld für den Produktname */}
           <input
-            id={fieldID}
             type="text"
-
+            id="inputfield_newitem"
             className="col-2 fs-5 rounded text-center border-0 w-26"
-
             placeholder="Neues Produkt"
             aria-describedby="basic-addon2"
           />
@@ -261,9 +214,7 @@ const [selectedUser, setSelectedUser] = useState(null);
           {/* Button zum Speichern */}
           <button
             onClick={saveUserShopping}
-
             className="btn btn-outline-warning save-button"
-
           >
             Speichern
           </button>
@@ -276,25 +227,22 @@ const [selectedUser, setSelectedUser] = useState(null);
           </button>
 
           <button
-          onClick={() => deleteCurrentUserList()}
-          className="btn btn-outline-warning deletelist-button"
-            >
-          Liste löschen
-        </button>
+            onClick={() => deleteUserShopping()}
+            className="btn btn-outline-warning deletelist-button"
+          >
+            Liste löschen
+          </button>
           {/* Dropdown-Menü für die Auswahl gespeicherter Benutzer */}
           <select
             className="col fs-4 rounded text-center border-0 einkaufslisten"
             value={selectedUser ? selectedUser.userName : ""}
             onChange={(e) => selectUser(savedUsers.find(user => user.userName === e.target.value))}
           >
-          
             <option value="" disabled>Einkaufslisten</option>
             {savedUsers.map((user, index) => (
               <option key={index} value={user.userName}>{user.userName}</option>
             ))}
-            
           </select>
-
         </div>
       </div>
       {/* Anzeige der Liste von Produkten */}
@@ -304,6 +252,8 @@ const [selectedUser, setSelectedUser] = useState(null);
             <tr>
               <th scope="col">#</th>
               <th scope="col">✔</th>
+              <th scope="col">Preis</th> {/* Neuer Header für Preis */}
+              <th scope="col">Im Angebot bei</th> {/* Neuer Header für Angebotsdetails */}
               <th scope="col">Produkt</th>
               <th scope="col">Menge</th>
               <th scope="col">Einheit</th>
@@ -317,7 +267,9 @@ const [selectedUser, setSelectedUser] = useState(null);
             {items.map((item, index) => (
               <tr key={item.id}>
                 <th scope="row">{index + 1}</th>
-                <th scope="row"><input type="checkbox" class="form-check-input" /></th>
+                <th scope="row"><input type="checkbox" className="form-check-input" /></th>
+                <td>{item.price}</td>
+                <td>{item.onSaleAt}</td>
                 <td>{item.value}</td>
                 <td>{item.quantity}</td>
                 <td>{item.unit}</td>
@@ -326,7 +278,7 @@ const [selectedUser, setSelectedUser] = useState(null);
                 <td>
                   <i
                     className="bi bi-pencil-square text-info fs-4"
-                    onClick={() => startEditing(item)}
+                    onClick={() => editItem(item)}
                   ></i>
                 </td>
                 {/* Icon zum Löschen */}
@@ -342,16 +294,14 @@ const [selectedUser, setSelectedUser] = useState(null);
         </table>
       </div>
 
-
       <button
-          onClick={downloadList}
-          className="btn btn-outline-warning downloadlist-button"
-        >
-          Liste Download
-        </button>
+        onClick={downloadList}
+        className="btn btn-outline-warning downloadlist-button"
+      >
+        Liste Download
+      </button>
     </>
   );
 }
 
 export default App;
-

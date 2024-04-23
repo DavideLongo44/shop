@@ -8,17 +8,21 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
+    "chromedriver": "^123.0.2",
     "jspdf": "^2.5.1",
+    "prom-client": "^15.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
+    "react-vfx": "^0.5.0",
+    "selenium-webdriver": "^4.19.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "type": "module"
   },
   "eslintConfig": {
     "extends": [
@@ -38,7 +42,14 @@
       "last 1 safari version"
     ]
   },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.7.2"
+    "@babel/core": "^7.24.4",
+    "@babel/node": "^7.23.9",
+    "jest": "^27.5.1",
+    "react-scripts": "^5.0.1"
   }
 }
