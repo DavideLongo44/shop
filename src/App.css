@@ -35,7 +35,7 @@ h1 {
   width: 300%; /* Makes the button fill the width of its container */
   max-width: 200px; /* Setzt eine maximale Breite */
   height: 50px;
-  margin: 10px auto; * Adds some space above the button */
+  margin: 10px auto; /* Adds some space above the button */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
