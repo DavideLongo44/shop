@@ -101,13 +101,14 @@ resource "aws_instance" "control_panel" {
   user_data = <<-EOF
     #!/bin/bash
     yum update -y
-    yum install -y docker
-    systemctl enable docker
-    systemctl start docker
-    docker run -d -p 80:80 bestione/shopwize:latest
+    yum install -y ansible git
+    systemctl enable ansible
+    systemctl start ansible
+    git clone -b DevDav https://github.com/DavideLongo44/shop.git /tmp/shop
+    cp -r /tmp/shop/Terraform/ansible /ansible
+    rm -rf /tmp/shop
   EOF
 }
-
 resource "aws_instance" "ansible" {
   vpc_security_group_ids = [aws_security_group.example_security_group.id]
   ami                    = "ami-0f673487d7e5f89ca"
