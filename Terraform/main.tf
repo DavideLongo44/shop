@@ -37,21 +37,43 @@ resource "aws_subnet" "ansible2" {
   map_public_ip_on_launch = true
   tags = {
     Name = "Ansible Subnet2"
+<<<<<<< Updated upstream
   }
 }
 
 resource "aws_internet_gateway" "example_igw" {
   vpc_id = aws_vpc.example_vpc.id
+=======
+  }  
+}
+
+resource "aws_internet_gateway" "example_igw" {
+    vpc_id = aws_vpc.example_vpc.id
+>>>>>>> Stashed changes
 }
 
 resource "aws_route_table" "example_route_table" {
   vpc_id = aws_vpc.example_vpc.id
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   route {
     cidr_block = "0.0.0.0/0"
     gateway_id = aws_internet_gateway.example_igw.id
   }
 }
 
+<<<<<<< Updated upstream
+=======
+resource "aws_route_table_association" "examble_association" {
+  subnet_id          = aws_subnet.control_panel.id
+  route_table_id     = aws_route_table.example_route_table.id
+
+
+}
+
+>>>>>>> Stashed changes
 resource "aws_route_table_association" "example_association" {
   subnet_id      = aws_subnet.control-panel.id
   route_table_id = aws_route_table.example_route_table.id
@@ -70,6 +92,10 @@ resource "aws_security_group" "example_security_group" {
   }
 
   ingress {
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
@@ -82,6 +108,7 @@ resource "aws_security_group" "example_security_group" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+<<<<<<< Updated upstream
   egress  {
     from_port   = 0
     to_port     = 0
@@ -134,4 +161,35 @@ resource "aws_instance" "ansible2" {
   tags = {
     Name = "ansible2"
   }
+=======
+}
+
+resource "aws_instance" "control_panel" {
+    vpc_security_group_ids = [ aws_security_group.example_security_group.id]
+    ami                    = "ami-0faab6bdbac9486fb"
+    instance_type          = "t2.micro"
+    subnet_id              = aws_subnet.control-panel.id 
+    tags = {
+        Name = "control-panel"
+    }  
+
+}
+
+resource "aws_instance" "ansible" {
+    vpc_security_group_ids = [aws_security_group.example_security_group.id]
+    ami                    = "ami-0faab6bdbac9486fb"
+    subnet_id              = aws_subnet.ansible[0].id
+    tags = {
+        Name = "ansible"
+    }       
+}
+
+resource "aws_instance" "ansible2" {
+    vpc_security_group_ids = [aws_security_group.example_security_group.id]
+    ami                    = "ami-0faab6bdbac9486fb"
+    subnet_id              = aws_subnet.ansible[0].id
+    tags = {
+        Name = "ansible2"
+    }       
+>>>>>>> Stashed changes
 }
