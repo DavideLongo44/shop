@@ -31,14 +31,11 @@ h1 {
 
 /* Hinzufügen-Button */
 .add-button {
- 
-  width: 300%; /* Makes the button fill the width of its container */
-  max-width: 200px; /* Setzt eine maximale Breite */
+  width: 190px; /* Setzt eine maximale Breite */
   height: 50px;
-  margin: 10px auto; /* Adds some space above the button */
-  overflow: hidden;
-  white-space: nowrap;
+  margin: 0px; /* Adds some space above the button */
   text-overflow: ellipsis;
+  padding: auto;
 }
 
 /* Speichern-Button, Zurücksetzen-Button, Liste löschen-Button */
@@ -105,8 +102,8 @@ h1 {
 /* Media-Query für kleine Bildschirme */
 @media (max-width: 768px) {
   .container {
-    width: 100%;
-    padding: 0 10px;
+    width: 90%;
+    padding: 10px;
   }
 
   .einkäufer,

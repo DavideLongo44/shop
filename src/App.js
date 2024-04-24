@@ -196,7 +196,7 @@ const [selectedUser, setSelectedUser] = useState(null);
           <input
             type="text"
 
-            className="col-2 fs-5 rounded text-center border-0 w-25 p-2 einkäufer"
+            className="col-2 fs-6 rounded text-center border-0 w-26 p-2 einkäufer"
 
             placeholder="Name des Einkäufers"
             value={userName}
@@ -222,7 +222,7 @@ const [selectedUser, setSelectedUser] = useState(null);
           />
           {/* Dropdown-Menü für die Einheit */}
           <select
-            className="col-1 fs-5 rounded text-center border-0"
+            className="col-1 fs-4 rounded text-center border-0"
             value={unit}
             onChange={(e) => setUnit(e.target.value)}
           >
@@ -247,7 +247,7 @@ const [selectedUser, setSelectedUser] = useState(null);
             <option value="Sonstiges">Sonstiges</option>
           </select>
           {/* Button zum Hinzufügen oder Aktualisieren */}
-          <div className="col-2 input-group-append">
+          <div className="col-15 input-group-append">
             <button
               onClick={updateItemList}
               className="btn btn-outline-warning add-button"
