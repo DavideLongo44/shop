@@ -1,0 +1,13 @@
+---
+- name: Aktualisierung der Docker-Container
+  hosts: ansible
+  become: true  # Führe Befehle als root aus
+  tasks:
+    - name: Aktualisiere den Docker-Container
+      docker_container:
+        name: shopwize
+        image: bestione/shopwize:latest
+        state: started
+        restart_policy: always
+        ports:
+          - "80:80"
