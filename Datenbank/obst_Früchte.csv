@@ -1,4 +1,4 @@
-Produktname,SKU,Preis kg (€),Verfügbarkeit
+Produktname,SKU,price (kg €),Verfügbarkeit
 Apfel,SKU1001,0.99,Ja
 Banane,SKU1002,1.49,Ja
 Orange,SKU1003,1.29,Ja

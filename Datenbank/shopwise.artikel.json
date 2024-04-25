@@ -1,0 +1,4500 @@
+[{
+  "Produktname": "Baguette",
+  "SKU": "SKU1311",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Croissant",
+  "SKU": "SKU1312",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Brotlaib",
+  "SKU": "SKU1313",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Brötchen",
+  "SKU": "SKU1314",
+  "Preis (€)": 0.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bauernbrot",
+  "SKU": "SKU1315",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ciabatta",
+  "SKU": "SKU1316",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Muffin",
+  "SKU": "SKU1317",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Krapfen",
+  "SKU": "SKU1318",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zimtschnecke",
+  "SKU": "SKU1319",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schokoladenkuchen",
+  "SKU": "SKU1320",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Obstkuchen",
+  "SKU": "SKU1321",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Käsekuchen",
+  "SKU": "SKU1322",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eclairs",
+  "SKU": "SKU1323",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Berliner",
+  "SKU": "SKU1324",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pretzel",
+  "SKU": "SKU1325",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bagel",
+  "SKU": "SKU1326",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rosinenbrötchen",
+  "SKU": "SKU1327",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Brioche",
+  "SKU": "SKU1328",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Käsestange",
+  "SKU": "SKU1329",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kürbiskernbrot",
+  "SKU": "SKU1330",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Vollkornbrot",
+  "SKU": "SKU1331",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hörnchen",
+  "SKU": "SKU1332",
+  "Preis (€)": 0.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Käsebrötchen",
+  "SKU": "SKU1333",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Apfelstrudel",
+  "SKU": "SKU1334",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeerkuchen",
+  "SKU": "SKU1335",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Vanillekipferl",
+  "SKU": "SKU1336",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schwarzbrot",
+  "SKU": "SKU1337",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Buttercroissant",
+  "SKU": "SKU1338",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Laugenstange",
+  "SKU": "SKU1339",
+  "Preis (€)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nusskuchen",
+  "SKU": "SKU1340",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zitronenkuchen",
+  "SKU": "SKU1341",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hefezopf",
+  "SKU": "SKU1342",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Franzbrötchen",
+  "SKU": "SKU1343",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Roggenbrot",
+  "SKU": "SKU1344",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zitronenmuffin",
+  "SKU": "SKU1345",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schwarzwälder Kirschtorte",
+  "SKU": "SKU1346",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Donut",
+  "SKU": "SKU1347",
+  "Preis (€)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Biskuitrolle",
+  "SKU": "SKU1348",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blätterteiggebäck",
+  "SKU": "SKU1349",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pflaumenkuchen",
+  "SKU": "SKU1350",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Karottenkuchen",
+  "SKU": "SKU1351",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schoko-Croissant",
+  "SKU": "SKU1352",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Käsekuchen mit Himbeeren",
+  "SKU": "SKU1353",
+  "Preis (€)": 4.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Streuselkuchen",
+  "SKU": "SKU1354",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nussecke",
+  "SKU": "SKU1355",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Apfelkuchen",
+  "SKU": "SKU1356",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schnecken",
+  "SKU": "SKU1357",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Käsekuchen mit Beeren",
+  "SKU": "SKU1358",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kirschstreusel",
+  "SKU": "SKU1359",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zimtstern",
+  "SKU": "SKU1360",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rhabarberkuchen",
+  "SKU": "SKU1361",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kokosmakronen",
+  "SKU": "SKU1362",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Puddingteilchen",
+  "SKU": "SKU1363",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schoko-Banane-Muffin",
+  "SKU": "SKU1364",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Brioche mit Rosinen",
+  "SKU": "SKU1365",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nougatkuchen",
+  "SKU": "SKU1366",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mandelhörnchen",
+  "SKU": "SKU1367",
+  "Preis (€)": 1.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Butterkuchen",
+  "SKU": "SKU1368",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Käsestange mit Schinken",
+  "SKU": "SKU1369",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schokocroissant mit Nüssen",
+  "SKU": "SKU1370",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Baguette mit Oliven",
+  "SKU": "SKU1371",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Marzipankuchen",
+  "SKU": "SKU1372",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zitronenbiskuit",
+  "SKU": "SKU1373",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schoko-Praliné-Kuchen",
+  "SKU": "SKU1374",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Früchtebrot",
+  "SKU": "SKU1375",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mohnschnecke",
+  "SKU": "SKU1376",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Apfelrosen",
+  "SKU": "SKU1377",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Feigenbrot",
+  "SKU": "SKU1378",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Walnusskuchen",
+  "SKU": "SKU1379",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bananenbrot",
+  "SKU": "SKU1380",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Himbeerkuchen",
+  "SKU": "SKU1381",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pfannkuchen",
+  "SKU": "SKU1382",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Vanillekrapfen",
+  "SKU": "SKU1383",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kokoskuchen",
+  "SKU": "SKU1384",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nusszopf",
+  "SKU": "SKU1385",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdnussbutterkekse",
+  "SKU": "SKU1386",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schokoladencroissant",
+  "SKU": "SKU1387",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Aprikosenkuchen",
+  "SKU": "SKU1388",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Puddingkuchen",
+  "SKU": "SKU1389",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hefeschnecke",
+  "SKU": "SKU1390",
+  "Preis (€)": 1.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Birnenkuchen",
+  "SKU": "SKU1391",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bananenkuchen",
+  "SKU": "SKU1392",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zitronenkrapfen",
+  "SKU": "SKU1393",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hefekuchen mit Streuseln",
+  "SKU": "SKU1394",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Orangenkuchen",
+  "SKU": "SKU1395",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nussschnecke",
+  "SKU": "SKU1396",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Apfelkrapfen",
+  "SKU": "SKU1397",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Käsekuchen mit Mandarinen",
+  "SKU": "SKU1398",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Beerenkuchen",
+  "SKU": "SKU1399",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schokomuffin",
+  "SKU": "SKU1400",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blaubeerkuchen",
+  "SKU": "SKU1401",
+  "Preis (€)": 4.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pfirsichkuchen",
+  "SKU": "SKU1402",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeerkrapfen",
+  "SKU": "SKU1403",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Käsekuchen mit Pfirsich",
+  "SKU": "SKU1404",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pflaumenkrapfen",
+  "SKU": "SKU1405",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Apfeltaschen",
+  "SKU": "SKU1406",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kürbiskuchen",
+  "SKU": "SKU1407",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Marillenkuchen",
+  "SKU": "SKU1408",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bienenstich",
+  "SKU": "SKU1409",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schokoladenpuddingkuchen",
+  "SKU": "SKU1410",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handseife",
+  "SKU": "SKU1071",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handdesinfektionsmittel",
+  "SKU": "SKU1072",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Shampoo",
+  "SKU": "SKU1073",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Conditioner",
+  "SKU": "SKU1074",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Duschgel",
+  "SKU": "SKU1075",
+  "Preis (€)": 1.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zahnpasta",
+  "SKU": "SKU1076",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zahnbürste",
+  "SKU": "SKU1077",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mundwasser",
+  "SKU": "SKU1078",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Deodorant",
+  "SKU": "SKU1079",
+  "Preis (€)": 2.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasierer",
+  "SKU": "SKU1080",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasierklingen",
+  "SKU": "SKU1081",
+  "Preis (€)": 7.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Körperseife",
+  "SKU": "SKU1082",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handtücher",
+  "SKU": "SKU1083",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toilettenpapier",
+  "SKU": "SKU1084",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haarbürste",
+  "SKU": "SKU1085",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badeschwamm",
+  "SKU": "SKU1086",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtsreiniger",
+  "SKU": "SKU1087",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handcreme",
+  "SKU": "SKU1088",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Feuchttücher",
+  "SKU": "SKU1089",
+  "Preis (€)": 1.59,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mundschutzmasken",
+  "SKU": "SKU1090",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Desinfektionstücher",
+  "SKU": "SKU1091",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Seife",
+  "SKU": "SKU1092",
+  "Preis (€)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handlotion",
+  "SKU": "SKU1093",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haargel",
+  "SKU": "SKU1094",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Körperöl",
+  "SKU": "SKU1095",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagelknipser",
+  "SKU": "SKU1096",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badesalz",
+  "SKU": "SKU1097",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Augenmaske",
+  "SKU": "SKU1098",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ohrstöpsel",
+  "SKU": "SKU1099",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wattestäbchen",
+  "SKU": "SKU1100",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mundspülung",
+  "SKU": "SKU1101",
+  "Preis (€)": 2.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fußcreme",
+  "SKU": "SKU1102",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Inkontinenzunterlagen",
+  "SKU": "SKU1103",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Intimpflegetücher",
+  "SKU": "SKU1104",
+  "Preis (€)": 1.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagelfeile",
+  "SKU": "SKU1105",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasiergel",
+  "SKU": "SKU1106",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Damenbinden",
+  "SKU": "SKU1107",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Herrenrasiercreme",
+  "SKU": "SKU1108",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Duschhaube",
+  "SKU": "SKU1109",
+  "Preis (€)": 0.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Einweghandschuhe",
+  "SKU": "SKU1110",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtsmaske",
+  "SKU": "SKU1111",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bademantel",
+  "SKU": "SKU1112",
+  "Preis (€)": 12.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Duschschaum",
+  "SKU": "SKU1113",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasierapparat",
+  "SKU": "SKU1114",
+  "Preis (€)": 24.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasierpinsel",
+  "SKU": "SKU1115",
+  "Preis (€)": 6.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handtuchhalter",
+  "SKU": "SKU1116",
+  "Preis (€)": 8.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badewannenkissen",
+  "SKU": "SKU1117",
+  "Preis (€)": 14.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagelbürste",
+  "SKU": "SKU1118",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nasenpads",
+  "SKU": "SKU1119",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Make-up-Entferner",
+  "SKU": "SKU1120",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pinselreiniger",
+  "SKU": "SKU1121",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasiermesser",
+  "SKU": "SKU1122",
+  "Preis (€)": 18.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Duschwanne",
+  "SKU": "SKU1123",
+  "Preis (€)": 89.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Duschkabine",
+  "SKU": "SKU1124",
+  "Preis (€)": 199.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handtuchset",
+  "SKU": "SKU1125",
+  "Preis (€)": 19.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wärmflasche",
+  "SKU": "SKU1126",
+  "Preis (€)": 7.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasierständer",
+  "SKU": "SKU1127",
+  "Preis (€)": 11.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtsscrub",
+  "SKU": "SKU1128",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wattepads",
+  "SKU": "SKU1129",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagelhautentferner",
+  "SKU": "SKU1130",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badebombe",
+  "SKU": "SKU1131",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasiergel",
+  "SKU": "SKU1132",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Duschgel für Männer",
+  "SKU": "SKU1133",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haarwachs",
+  "SKU": "SKU1134",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bartschneider",
+  "SKU": "SKU1135",
+  "Preis (€)": 29.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtscreme",
+  "SKU": "SKU1136",
+  "Preis (€)": 5.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Körperpeeling",
+  "SKU": "SKU1137",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Augencreme",
+  "SKU": "SKU1138",
+  "Preis (€)": 7.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Intimwaschlotion",
+  "SKU": "SKU1139",
+  "Preis (€)": 2.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schaumbad",
+  "SKU": "SKU1140",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haartrockner",
+  "SKU": "SKU1141",
+  "Preis (€)": 24.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Massageöl",
+  "SKU": "SKU1142",
+  "Preis (€)": 6.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reisezahnbürste",
+  "SKU": "SKU1143",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Munddusche",
+  "SKU": "SKU1144",
+  "Preis (€)": 39.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haarspülung",
+  "SKU": "SKU1145",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtsmaske für Männer",
+  "SKU": "SKU1146",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Seifenspender",
+  "SKU": "SKU1147",
+  "Preis (€)": 8.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schwamm für die Rückenreinigung",
+  "SKU": "SKU1148",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagelknipser für Männer",
+  "SKU": "SKU1149",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badekissen",
+  "SKU": "SKU1150",
+  "Preis (€)": 12.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Duschradio",
+  "SKU": "SKU1151",
+  "Preis (€)": 17.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bürstenhalter für die Dusche",
+  "SKU": "SKU1152",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagelhautscheren",
+  "SKU": "SKU1153",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sonnenschutzspray",
+  "SKU": "SKU1154",
+  "Preis (€)": 9.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hauspantoletten",
+  "SKU": "SKU1155",
+  "Preis (€)": 8.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtssauna",
+  "SKU": "SKU1156",
+  "Preis (€)": 29.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hämatitstein zur Wasserreinigung",
+  "SKU": "SKU1157",
+  "Preis (€)": 19.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Dampfbad",
+  "SKU": "SKU1158",
+  "Preis (€)": 79.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtspeeling",
+  "SKU": "SKU1159",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtsbürste",
+  "SKU": "SKU1160",
+  "Preis (€)": 12.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fußcreme",
+  "SKU": "SKU1161",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Augenmaske",
+  "SKU": "SKU1162",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagelfeile",
+  "SKU": "SKU1163",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badekugeln",
+  "SKU": "SKU1164",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bademilch",
+  "SKU": "SKU1165",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badeöl",
+  "SKU": "SKU1166",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haarspray",
+  "SKU": "SKU1167",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtsmaske",
+  "SKU": "SKU1168",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Einwegrasierer",
+  "SKU": "SKU1169",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Duschhaube",
+  "SKU": "SKU1170",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handschuhe",
+  "SKU": "SKU1171",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mundspülung",
+  "SKU": "SKU1172",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zahnseide",
+  "SKU": "SKU1173",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mundschutz",
+  "SKU": "SKU1174",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtswasser",
+  "SKU": "SKU1175",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagellackentferner",
+  "SKU": "SKU1176",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wimperntusche",
+  "SKU": "SKU1177",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasiercreme",
+  "SKU": "SKU1178",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Epiliergerät",
+  "SKU": "SKU1179",
+  "Preis (€)": 29.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rasieröl",
+  "SKU": "SKU1180",
+  "Preis (€)": 6.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Intimpflege",
+  "SKU": "SKU1181",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haarfarbe",
+  "SKU": "SKU1182",
+  "Preis (€)": 7.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lippenbalsam",
+  "SKU": "SKU1183",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Make-up-Entferner",
+  "SKU": "SKU1184",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagelhautpflege",
+  "SKU": "SKU1185",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wattebäusche",
+  "SKU": "SKU1186",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badeschwamm",
+  "SKU": "SKU1187",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nagellack",
+  "SKU": "SKU1188",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gesichtspeeling",
+  "SKU": "SKU1189",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wimpernserum",
+  "SKU": "SKU1190",
+  "Preis (€)": 8.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Apfel",
+  "SKU": "SKU1001",
+  "price (kg €)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Banane",
+  "SKU": "SKU1002",
+  "price (kg €)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Orange",
+  "SKU": "SKU1003",
+  "price (kg €)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeere",
+  "SKU": "SKU1004",
+  "price (kg €)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kiwi",
+  "SKU": "SKU1005",
+  "price (kg €)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ananas",
+  "SKU": "SKU1006",
+  "price (kg €)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mango",
+  "SKU": "SKU1007",
+  "price (kg €)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Trauben",
+  "SKU": "SKU1008",
+  "price (kg €)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Birne",
+  "SKU": "SKU1009",
+  "price (kg €)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pfirsich",
+  "SKU": "SKU1010",
+  "price (kg €)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wassermelone",
+  "SKU": "SKU1011",
+  "price (kg €)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kirschen",
+  "SKU": "SKU1012",
+  "price (kg €)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Himbeeren",
+  "SKU": "SKU1013",
+  "price (kg €)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blaubeeren",
+  "SKU": "SKU1014",
+  "price (kg €)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pflaume",
+  "SKU": "SKU1015",
+  "price (kg €)": 1.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Zitrone",
+  "SKU": "SKU1016",
+  "price (kg €)": 0.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Grapefruit",
+  "SKU": "SKU1017",
+  "price (kg €)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Granatapfel",
+  "SKU": "SKU1018",
+  "price (kg €)": 2.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Passionsfrucht",
+  "SKU": "SKU1019",
+  "price (kg €)": 2.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Feige",
+  "SKU": "SKU1020",
+  "price (kg €)": 1.39,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Melone",
+  "SKU": "SKU1021",
+  "price (kg €)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Papaya",
+  "SKU": "SKU1022",
+  "price (kg €)": 3.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Guave",
+  "SKU": "SKU1023",
+  "price (kg €)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kaktusfeige",
+  "SKU": "SKU1024",
+  "price (kg €)": 2.59,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Aprikose",
+  "SKU": "SKU1025",
+  "price (kg €)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nektarine",
+  "SKU": "SKU1026",
+  "price (kg €)": 1.59,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Litschi",
+  "SKU": "SKU1027",
+  "price (kg €)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Brombeeren",
+  "SKU": "SKU1028",
+  "price (kg €)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Cantaloupe",
+  "SKU": "SKU1029",
+  "price (kg €)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Physalis",
+  "SKU": "SKU1030",
+  "price (kg €)": 2.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rhabarber",
+  "SKU": "SKU1031",
+  "price (kg €)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Maulbeere",
+  "SKU": "SKU1032",
+  "price (kg €)": 2.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Goji-Beeren",
+  "SKU": "SKU1033",
+  "price (kg €)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Stachelbeeren",
+  "SKU": "SKU1034",
+  "price (kg €)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kumquat",
+  "SKU": "SKU1035",
+  "price (kg €)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Drachenfrucht",
+  "SKU": "SKU1036",
+  "price (kg €)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ackee",
+  "SKU": "SKU1037",
+  "price (kg €)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Durian",
+  "SKU": "SKU1038",
+  "price (kg €)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jujube",
+  "SKU": "SKU1039",
+  "price (kg €)": 2.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Quitten",
+  "SKU": "SKU1040",
+  "price (kg €)": 2.39,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rote Johannisbeeren",
+  "SKU": "SKU1041",
+  "price (kg €)": 1.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schwarze Johannisbeeren",
+  "SKU": "SKU1042",
+  "price (kg €)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Weiße Johannisbeeren",
+  "SKU": "SKU1043",
+  "price (kg €)": 2.59,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Guanabana",
+  "SKU": "SKU1044",
+  "price (kg €)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Maracuja",
+  "SKU": "SKU1045",
+  "price (kg €)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Guavenkernmehl",
+  "SKU": "SKU1046",
+  "price (kg €)": 8.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mispel",
+  "SKU": "SKU1047",
+  "price (kg €)": 2.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rambutan",
+  "SKU": "SKU1048",
+  "price (kg €)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kokosnuss",
+  "SKU": "SKU1049",
+  "price (kg €)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sternfrucht",
+  "SKU": "SKU1050",
+  "price (kg €)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Litschi",
+  "SKU": "SKU1051",
+  "price (kg €)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kumquat",
+  "SKU": "SKU1052",
+  "price (kg €)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Durian",
+  "SKU": "SKU1053",
+  "price (kg €)": 6.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jackfrucht",
+  "SKU": "SKU1054",
+  "price (kg €)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Cherimoya",
+  "SKU": "SKU1055",
+  "price (kg €)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Soursop",
+  "SKU": "SKU1056",
+  "price (kg €)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kaktusfeige",
+  "SKU": "SKU1057",
+  "price (kg €)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Rambutan",
+  "SKU": "SKU1058",
+  "price (kg €)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Longan",
+  "SKU": "SKU1059",
+  "price (kg €)": 3.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kiwano",
+  "SKU": "SKU1060",
+  "price (kg €)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Feijoa",
+  "SKU": "SKU1061",
+  "price (kg €)": 2.59,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pitahaya",
+  "SKU": "SKU1062",
+  "price (kg €)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tamarillo",
+  "SKU": "SKU1063",
+  "price (kg €)": 2.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pitaya",
+  "SKU": "SKU1064",
+  "price (kg €)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Carambola",
+  "SKU": "SKU1065",
+  "price (kg €)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Marula",
+  "SKU": "SKU1067",
+  "price (kg €)": 6.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Buddhas Hand",
+  "SKU": "SKU1068",
+  "price (kg €)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jabuticaba",
+  "SKU": "SKU1069",
+  "price (kg €)": 7.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Monstera",
+  "SKU": "SKU1070",
+  "price (kg €)": 8.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mangostane",
+  "SKU": "SKU1069",
+  "price (kg €)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tamarinde",
+  "SKU": "SKU1070",
+  "price (kg €)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Allzweckreiniger",
+  "SKU": "SKU1191",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Glasreiniger",
+  "SKU": "SKU1192",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badreiniger",
+  "SKU": "SKU1193",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toilettenreiniger",
+  "SKU": "SKU1194",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bodenreiniger",
+  "SKU": "SKU1195",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Küchenreiniger",
+  "SKU": "SKU1196",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Desinfektionstücher",
+  "SKU": "SKU1197",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "WC-Tabs",
+  "SKU": "SKU1198",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schimmelentferner",
+  "SKU": "SKU1199",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kalkentferner",
+  "SKU": "SKU1200",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Backofenspray",
+  "SKU": "SKU1201",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Spülmittel",
+  "SKU": "SKU1202",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Entkalker",
+  "SKU": "SKU1203",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lederpflege",
+  "SKU": "SKU1204",
+  "Preis (€)": 6.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Edelstahlreiniger",
+  "SKU": "SKU1205",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fleckenentferner",
+  "SKU": "SKU1206",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badezimmerreiniger",
+  "SKU": "SKU1207",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gummihandschuhe",
+  "SKU": "SKU1208",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Möbelpolitur",
+  "SKU": "SKU1209",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ofenreiniger",
+  "SKU": "SKU1210",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Teppichreiniger",
+  "SKU": "SKU1211",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Staubsaugerbeutel",
+  "SKU": "SKU1212",
+  "Preis (€)": 8.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Staubwedel",
+  "SKU": "SKU1213",
+  "Preis (€)": 2.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fensterputzer",
+  "SKU": "SKU1214",
+  "Preis (€)": 6.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schwamm",
+  "SKU": "SKU1215",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mopp",
+  "SKU": "SKU1216",
+  "Preis (€)": 9.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wischmopp",
+  "SKU": "SKU1217",
+  "Preis (€)": 12.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Besen",
+  "SKU": "SKU1218",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eimer",
+  "SKU": "SKU1219",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Handbesen und Kehrblech",
+  "SKU": "SKU1220",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Geschirrspültabs",
+  "SKU": "SKU1221",
+  "Preis (€)": 7.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "WC-Reinigungsgel",
+  "SKU": "SKU1222",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fettlöser",
+  "SKU": "SKU1223",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Küchentücher",
+  "SKU": "SKU1224",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bürste für die Toilette",
+  "SKU": "SKU1225",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badewannenreiniger",
+  "SKU": "SKU1226",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mehrzweck-Schwamm",
+  "SKU": "SKU1227",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Abflussreiniger",
+  "SKU": "SKU1228",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mikrofasertuch",
+  "SKU": "SKU1229",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sprühflasche",
+  "SKU": "SKU1230",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ofenspray",
+  "SKU": "SKU1231",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Glas- und Spiegelspray",
+  "SKU": "SKU1232",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toilettensitzreiniger",
+  "SKU": "SKU1233",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bürste für Fugen",
+  "SKU": "SKU1234",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Staubsaugerdüse",
+  "SKU": "SKU1235",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bodenwischer",
+  "SKU": "SKU1236",
+  "Preis (€)": 10.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Saugroboter",
+  "SKU": "SKU1237",
+  "Preis (€)": 199.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Staubsauger",
+  "SKU": "SKU1238",
+  "Preis (€)": 89.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mülleimer",
+  "SKU": "SKU1239",
+  "Preis (€)": 12.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Wischbezug",
+  "SKU": "SKU1240",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Staubtuch",
+  "SKU": "SKU1241",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schrubber",
+  "SKU": "SKU1242",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toilettenbürstenhalter",
+  "SKU": "SKU1243",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fensterabzieher",
+  "SKU": "SKU1244",
+  "Preis (€)": 7.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kehrgarnitur",
+  "SKU": "SKU1245",
+  "Preis (€)": 6.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Spültuch",
+  "SKU": "SKU1246",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fensterwischer",
+  "SKU": "SKU1247",
+  "Preis (€)": 9.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schwammhalter",
+  "SKU": "SKU1248",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Teppichkehrer",
+  "SKU": "SKU1249",
+  "Preis (€)": 14.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Küchenrolle",
+  "SKU": "SKU1250",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "WC-Bürste",
+  "SKU": "SKU1251",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Glasreinigungstücher",
+  "SKU": "SKU1252",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Grillreiniger",
+  "SKU": "SKU1253",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Staubwedel",
+  "SKU": "SKU1254",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kalkentferner-Spray",
+  "SKU": "SKU1255",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schmutzradierer",
+  "SKU": "SKU1256",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Backofenreiniger",
+  "SKU": "SKU1257",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Müllbeutel",
+  "SKU": "SKU1258",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badezimmerbürste",
+  "SKU": "SKU1259",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Autopolitur",
+  "SKU": "SKU1260",
+  "Preis (€)": 6.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Autoreiniger",
+  "SKU": "SKU1261",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schimmelentferner-Spray",
+  "SKU": "SKU1262",
+  "Preis (€)": 6.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Entkalkungstabletten",
+  "SKU": "SKU1263",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fensterputzlappen",
+  "SKU": "SKU1264",
+  "Preis (€)": 1.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toilettenbürstenhalter",
+  "SKU": "SKU1265",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "WC-Duftspüler",
+  "SKU": "SKU1266",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fugenreiniger",
+  "SKU": "SKU1267",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Staubsaugerbeutel",
+  "SKU": "SKU1268",
+  "Preis (€)": 8.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mikrofasermop",
+  "SKU": "SKU1269",
+  "Preis (€)": 7.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Grillbürste",
+  "SKU": "SKU1270",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kehrschaufel und Besen",
+  "SKU": "SKU1271",
+  "Preis (€)": 6.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mopp-Eimer",
+  "SKU": "SKU1272",
+  "Preis (€)": 9.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bodenwischpads",
+  "SKU": "SKU1273",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gummiabzieher",
+  "SKU": "SKU1274",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bürsten-Set",
+  "SKU": "SKU1275",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eckbesen",
+  "SKU": "SKU1276",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Geschirrspülbürste",
+  "SKU": "SKU1277",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mülltütenhalter",
+  "SKU": "SKU1278",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fliesenreiniger",
+  "SKU": "SKU1279",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Besenstiel",
+  "SKU": "SKU1280",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badreiniger",
+  "SKU": "SKU1281",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "WC-Reiniger",
+  "SKU": "SKU1282",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Glasreiniger",
+  "SKU": "SKU1283",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Backofenreiniger",
+  "SKU": "SKU1284",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Entkalker",
+  "SKU": "SKU1285",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Allzweckreiniger",
+  "SKU": "SKU1286",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Desinfektionsspray",
+  "SKU": "SKU1287",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schimmelentferner",
+  "SKU": "SKU1288",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bodenreiniger",
+  "SKU": "SKU1289",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fettlöser",
+  "SKU": "SKU1290",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Edelstahlreiniger",
+  "SKU": "SKU1291",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Abflussreiniger",
+  "SKU": "SKU1292",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mehrzweck-Spray",
+  "SKU": "SKU1293",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Küchenreiniger",
+  "SKU": "SKU1294",
+  "Preis (€)": 2.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badreiniger-Spray",
+  "SKU": "SKU1295",
+  "Preis (€)": 2.59,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fensterreiniger",
+  "SKU": "SKU1296",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toilettenbürste",
+  "SKU": "SKU1297",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Staubwedel",
+  "SKU": "SKU1298",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Desinfektionstücher",
+  "SKU": "SKU1299",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mikrofasertücher",
+  "SKU": "SKU1300",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Grillreiniger",
+  "SKU": "SKU1301",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gummihandschuhe",
+  "SKU": "SKU1302",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Spülbürste",
+  "SKU": "SKU1303",
+  "Preis (€)": 1.59,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Teppichreiniger",
+  "SKU": "SKU1304",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schuhcreme",
+  "SKU": "SKU1305",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fugenreiniger",
+  "SKU": "SKU1306",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Badezimmerreiniger",
+  "SKU": "SKU1307",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Scheuermilch",
+  "SKU": "SKU1308",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Marmorreiniger",
+  "SKU": "SKU1309",
+  "Preis (€)": 6.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lederpflege",
+  "SKU": "SKU1310",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haribo Goldbären",
+  "SKU": "SKU1521",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Trolli Gummi Bears",
+  "SKU": "SKU1522",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Schokolade",
+  "SKU": "SKU1523",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "KitKat Riegel",
+  "SKU": "SKU1524",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "M&M's Schokolinsen",
+  "SKU": "SKU1525",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lindt Lindor Kugeln",
+  "SKU": "SKU1526",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Bueno",
+  "SKU": "SKU1527",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix Riegel",
+  "SKU": "SKU1528",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Skittles Fruchtgummi",
+  "SKU": "SKU1529",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Riegel",
+  "SKU": "SKU1530",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Schokoriegel",
+  "SKU": "SKU1531",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Peanut Butter Cups",
+  "SKU": "SKU1532",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ferrero Rocher",
+  "SKU": "SKU1533",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gummibärchen",
+  "SKU": "SKU1534",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haribo Fruchtgummi",
+  "SKU": "SKU1535",
+  "Preis (€)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toblerone Schokolade",
+  "SKU": "SKU1536",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Maoam Fruchtgummi",
+  "SKU": "SKU1537",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ritter Sport Schokolade",
+  "SKU": "SKU1538",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Smarties",
+  "SKU": "SKU1539",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Katjes Fruchtgummi",
+  "SKU": "SKU1540",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Alpenmilch Schokolade",
+  "SKU": "SKU1541",
+  "Preis (€)": 1.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Giotto",
+  "SKU": "SKU1542",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Bounty Riegel",
+  "SKU": "SKU1543",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "After Eight Minzschokolade",
+  "SKU": "SKU1544",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Cadbury Dairy Milk Schokolade",
+  "SKU": "SKU1545",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Country Riegel",
+  "SKU": "SKU1546",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lakritz Bonbons",
+  "SKU": "SKU1547",
+  "Preis (€)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jelly Belly Jelly Beans",
+  "SKU": "SKU1548",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milky Way Riegel",
+  "SKU": "SKU1549",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nimm2 Bonbons",
+  "SKU": "SKU1550",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mentos Kaugummi",
+  "SKU": "SKU1551",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Schokobons",
+  "SKU": "SKU1552",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Kisses",
+  "SKU": "SKU1553",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lindt Excellence Schokolade",
+  "SKU": "SKU1554",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix White Riegel",
+  "SKU": "SKU1555",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Trolli Sour Brite Crawlers",
+  "SKU": "SKU1556",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Oreo Schokolade",
+  "SKU": "SKU1557",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Lion Riegel",
+  "SKU": "SKU1558",
+  "Preis (€)": 1.39,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ferrero Küsschen",
+  "SKU": "SKU1559",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Kids Fruchtgummi",
+  "SKU": "SKU1560",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Raffaello",
+  "SKU": "SKU1561",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mars Riegel",
+  "SKU": "SKU1562",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Maxi King",
+  "SKU": "SKU1563",
+  "Preis (€)": 1.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Storck Toffifee",
+  "SKU": "SKU1564",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Skittles Crazy Sours",
+  "SKU": "SKU1565",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haribo Maoam Bloxx",
+  "SKU": "SKU1566",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Riegel",
+  "SKU": "SKU1567",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Milkybar",
+  "SKU": "SKU1568",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toblerone Crunchy Salted Caramel",
+  "SKU": "SKU1569",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix Peanut Butter Riegel",
+  "SKU": "SKU1570",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mentos Fruchtbonbons",
+  "SKU": "SKU1571",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Erdbeer Schokolade",
+  "SKU": "SKU1572",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ferrero Duplo",
+  "SKU": "SKU1573",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Pieces",
+  "SKU": "SKU1574",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers White Riegel",
+  "SKU": "SKU1575",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lindt Hello Schokolade",
+  "SKU": "SKU1576",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé KitKat Chunky",
+  "SKU": "SKU1577",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mamba Fruchtgummi",
+  "SKU": "SKU1578",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haribo Color-Rado",
+  "SKU": "SKU1579",
+  "Preis (€)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "M&M's Peanut",
+  "SKU": "SKU1580",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Cadbury Crunchie",
+  "SKU": "SKU1581",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Katjes Lakritz Schnecken",
+  "SKU": "SKU1582",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Smarties Riegel",
+  "SKU": "SKU1583",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Maoam Crazy Roxx",
+  "SKU": "SKU1584",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Happy Hippo",
+  "SKU": "SKU1585",
+  "Preis (€)": 1.39,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix White Peanut Butter Riegel",
+  "SKU": "SKU1586",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Trolli Pfirsichringe",
+  "SKU": "SKU1587",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Milka & Oreo Schokolade",
+  "SKU": "SKU1588",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ferrero Hanuta",
+  "SKU": "SKU1589",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Watermelon Fruchtgummi",
+  "SKU": "SKU1590",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ritter Sport Knusperkeks",
+  "SKU": "SKU1591",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Yorkie Riegel",
+  "SKU": "SKU1592",
+  "Preis (€)": 1.39,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Nuss-Nougat Schokolade",
+  "SKU": "SKU1593",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Cookies 'n' Creme Riegel",
+  "SKU": "SKU1594",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lindt Lindor Kugeln Orange",
+  "SKU": "SKU1595",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix White Minis",
+  "SKU": "SKU1596",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Trolli Spaghettini",
+  "SKU": "SKU1597",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Haselnuss Schokolade",
+  "SKU": "SKU1598",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haribo Balla Stixx",
+  "SKU": "SKU1599",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mentos Chewing Gum",
+  "SKU": "SKU1600",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Chocolate",
+  "SKU": "SKU1601",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Milk Chocolate",
+  "SKU": "SKU1602",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lindt Lindor Assorted",
+  "SKU": "SKU1603",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix Cookies & Cream",
+  "SKU": "SKU1604",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Trolli Sour Brite Octopus",
+  "SKU": "SKU1605",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Daim Schokolade",
+  "SKU": "SKU1606",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Aero Riegel",
+  "SKU": "SKU1607",
+  "Preis (€)": 1.39,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ferrero Rondnoir",
+  "SKU": "SKU1608",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Kids Watermelon",
+  "SKU": "SKU1609",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ritter Sport Marzipan Schokolade",
+  "SKU": "SKU1610",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mars Chocolate Bar",
+  "SKU": "SKU1611",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Joy",
+  "SKU": "SKU1612",
+  "Preis (€)": 1.69,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Storck Merci Chocolate",
+  "SKU": "SKU1613",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Skittles Fruits",
+  "SKU": "SKU1614",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haribo Happy Cherries",
+  "SKU": "SKU1615",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Cards",
+  "SKU": "SKU1616",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Milkybar Buttons",
+  "SKU": "SKU1617",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Toblerone Milk Chocolate",
+  "SKU": "SKU1618",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix White Chocolate",
+  "SKU": "SKU1619",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mentos Chewy Mints",
+  "SKU": "SKU1620",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Caramel Schokolade",
+  "SKU": "SKU1621",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ferrero Hanuta Minis",
+  "SKU": "SKU1622",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Peanut Butter Cups Miniatures",
+  "SKU": "SKU1623",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Peanut Butter Riegel",
+  "SKU": "SKU1624",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lindt Excellence 70% Cocoa Dark Chocolate",
+  "SKU": "SKU1625",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé KitKat Senses",
+  "SKU": "SKU1626",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mamba Sour Fruit Chews",
+  "SKU": "SKU1627",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haribo Peaches",
+  "SKU": "SKU1628",
+  "Preis (€)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "M&M's Crispy",
+  "SKU": "SKU1629",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Cadbury Dairy Milk Oreo Chocolate",
+  "SKU": "SKU1630",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Katjes Salzige Heringe",
+  "SKU": "SKU1631",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Smarties Sharing Block",
+  "SKU": "SKU1632",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Maoam Bloxx Sour",
+  "SKU": "SKU1633",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kinder Delice",
+  "SKU": "SKU1634",
+  "Preis (€)": 1.39,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix Cookies & Cream Minis",
+  "SKU": "SKU1635",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Trolli Sour Glow Worms",
+  "SKU": "SKU1636",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Choco & Biscuit Schokolade",
+  "SKU": "SKU1637",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ferrero Duplo White",
+  "SKU": "SKU1638",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Kids Tropical",
+  "SKU": "SKU1639",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Ritter Sport Knusperflakes Schokolade",
+  "SKU": "SKU1640",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestlé Yorkie Raisin & Biscuit Riegel",
+  "SKU": "SKU1641",
+  "Preis (€)": 1.39,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka Oreo White Chocolate",
+  "SKU": "SKU1642",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Cookies 'n' Chocolate Riegel",
+  "SKU": "SKU1643",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lindt Excellence 85% Cocoa Dark Chocolate",
+  "SKU": "SKU1644",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix White Chocolate Minis",
+  "SKU": "SKU1645",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Trolli Sour Brite Crawlers Minis",
+  "SKU": "SKU1646",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milka White Chocolate",
+  "SKU": "SKU1647",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Haribo Fizzy Cola Bottles",
+  "SKU": "SKU1648",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Milk Chocolate Bar",
+  "SKU": "SKU1600",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Peanut Butter Cups",
+  "SKU": "SKU1601",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "M&M's Peanut Butter",
+  "SKU": "SKU1602",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twizzlers Strawberry Twists",
+  "SKU": "SKU1603",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Kids",
+  "SKU": "SKU1604",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Cookies 'n' Creme Bar",
+  "SKU": "SKU1605",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "KitKat Chunky",
+  "SKU": "SKU1606",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milky Way Bar",
+  "SKU": "SKU1607",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Skittles Original",
+  "SKU": "SKU1608",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Bar",
+  "SKU": "SKU1609",
+  "Preis (€)": 0.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jolly Rancher Hard Candy",
+  "SKU": "SKU1610",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Kisses",
+  "SKU": "SKU1611",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Pieces",
+  "SKU": "SKU1612",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nerds Candy",
+  "SKU": "SKU1613",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Junior Mints",
+  "SKU": "SKU1614",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Butterfinger Bar",
+  "SKU": "SKU1615",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix Bar",
+  "SKU": "SKU1616",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mike and Ike Fruit Flavored Candy",
+  "SKU": "SKU1617",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "York Peppermint Patties",
+  "SKU": "SKU1618",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Baby Ruth Bar",
+  "SKU": "SKU1619",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Whoppers Malted Milk Balls",
+  "SKU": "SKU1620",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mounds Bar",
+  "SKU": "SKU1621",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tootsie Roll",
+  "SKU": "SKU1622",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Warheads Extreme Sour Hard Candy",
+  "SKU": "SKU1623",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "3 Musketeers Bar",
+  "SKU": "SKU1624",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "PayDay Bar",
+  "SKU": "SKU1625",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Almond Joy Bar",
+  "SKU": "SKU1626",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Airheads Candy",
+  "SKU": "SKU1627",
+  "Preis (€)": 1.19,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Laffy Taffy",
+  "SKU": "SKU1628",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milky Way Midnight Bar",
+  "SKU": "SKU1629",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Fast Break Bar",
+  "SKU": "SKU1630",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Punch Straws",
+  "SKU": "SKU1631",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Special Dark Chocolate Bar",
+  "SKU": "SKU1632",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Butterfinger Cups",
+  "SKU": "SKU1633",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Almond Bar",
+  "SKU": "SKU1634",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lifesavers Gummies",
+  "SKU": "SKU1635",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jelly Belly Jelly Beans",
+  "SKU": "SKU1636",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milky Way Simply Caramel Bar",
+  "SKU": "SKU1637",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Swedish Fish Candy",
+  "SKU": "SKU1638",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "100 Grand Bar",
+  "SKU": "SKU1639",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nestle Crunch Bar",
+  "SKU": "SKU1640",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Watermelon Candy",
+  "SKU": "SKU1641",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Peanut Brownie Bar",
+  "SKU": "SKU1642",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Take 5 Bar",
+  "SKU": "SKU1643",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mike and Ike Mega Mix",
+  "SKU": "SKU1644",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jolly Rancher Gummies",
+  "SKU": "SKU1645",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milky Way Salted Caramel Bar",
+  "SKU": "SKU1646",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tootsie Pops",
+  "SKU": "SKU1647",
+  "Preis (€)": 0.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Gold Bar",
+  "SKU": "SKU1648",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix White Chocolate Cookie Bars",
+  "SKU": "SKU1649",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lemonheads Candy",
+  "SKU": "SKU1650",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Reese's Stuffed with Pieces",
+  "SKU": "SKU1651",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix White Chocolate Peanut Butter",
+  "SKU": "SKU1652",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jolly Rancher Hard Candy Assortment",
+  "SKU": "SKU1653",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Skittles Sour Candy",
+  "SKU": "SKU1654",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Butterfinger Bites",
+  "SKU": "SKU1655",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Creamy Peanut Butter Squares",
+  "SKU": "SKU1656",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's White Peanut Butter Cups",
+  "SKU": "SKU1657",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's PayDay King Size",
+  "SKU": "SKU1658",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twizzlers Twists",
+  "SKU": "SKU1659",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Kids Extreme",
+  "SKU": "SKU1660",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "M&M's Pretzel Chocolate Candies",
+  "SKU": "SKU1661",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nerds Rope",
+  "SKU": "SKU1662",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Cookies 'n' Mint Bar",
+  "SKU": "SKU1663",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milky Way Fudge Bar",
+  "SKU": "SKU1664",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Pieces Peanut Butter Candy in a Crunchy Shell",
+  "SKU": "SKU1665",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Whatchamacallit Bar",
+  "SKU": "SKU1666",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "KitKat White Chocolate Bar",
+  "SKU": "SKU1667",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mike and Ike Original Fruits",
+  "SKU": "SKU1668",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Whatchamacallit King Size",
+  "SKU": "SKU1669",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Kids Berries",
+  "SKU": "SKU1670",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "M&M's Almond Chocolate Candies",
+  "SKU": "SKU1671",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jolly Rancher Lollipops",
+  "SKU": "SKU1672",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Take 5 Bar",
+  "SKU": "SKU1673",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix Cookies & Creme",
+  "SKU": "SKU1674",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Hazelnut Bar",
+  "SKU": "SKU1675",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Nutrageous Bar",
+  "SKU": "SKU1676",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Kisses Deluxe",
+  "SKU": "SKU1677",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milky Way Caramel Cookie Bar",
+  "SKU": "SKU1678",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Skittles Brightside Candy",
+  "SKU": "SKU1679",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jolly Rancher Bites",
+  "SKU": "SKU1680",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Punch Bites",
+  "SKU": "SKU1681",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Milk Chocolate Drops",
+  "SKU": "SKU1682",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Almond Brownie Bar",
+  "SKU": "SKU1683",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Pieces Big Cup",
+  "SKU": "SKU1684",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twix Dark Chocolate Cookie Bars",
+  "SKU": "SKU1685",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Patch Kids Tropical",
+  "SKU": "SKU1686",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "M&M's Caramel Chocolate Candies",
+  "SKU": "SKU1687",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Nerds Big Chewy Candy",
+  "SKU": "SKU1688",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Reese's Pieces Peanut Butter Cups Miniatures",
+  "SKU": "SKU1689",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "KitKat Dark Chocolate Bar",
+  "SKU": "SKU1690",
+  "Preis (€)": 1.09,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mike and Ike Mega Mix Sour",
+  "SKU": "SKU1691",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Twizzlers Pull 'n' Peel Cherry",
+  "SKU": "SKU1692",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Snickers Creamy Maple Almond Butter Squares",
+  "SKU": "SKU1693",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Reese's Dark Chocolate Peanut Butter Cups",
+  "SKU": "SKU1694",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hershey's Reese's Milk Chocolate and Peanut Butter Cups Miniatures",
+  "SKU": "SKU1695",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Milky Way Simply Caramel Fun Size Bars",
+  "SKU": "SKU1696",
+  "Preis (€)": 0.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Skittles Wild Berry Candy",
+  "SKU": "SKU1697",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Butterfinger Peanut Butter Cups",
+  "SKU": "SKU1698",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Sour Punch Straws Rainbow",
+  "SKU": "SKU1699",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Jolly Rancher Gummies Sours",
+  "SKU": "SKU1700",
+  "Preis (€)": 1.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Margherita",
+  "SKU": "SKU1411",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsemischung",
+  "SKU": "SKU1412",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Vanille",
+  "SKU": "SKU1413",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlgemüse",
+  "SKU": "SKU1414",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fischstäbchen",
+  "SKU": "SKU1415",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pommes Frites",
+  "SKU": "SKU1416",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Salami",
+  "SKU": "SKU1417",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeer-Milchshake",
+  "SKU": "SKU1418",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Spinatportionen",
+  "SKU": "SKU1419",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hühnerfrikadellen",
+  "SKU": "SKU1420",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlbeerenmischung",
+  "SKU": "SKU1421",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blätterteigpasteten",
+  "SKU": "SKU1422",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Brokkoli-Röschen",
+  "SKU": "SKU1423",
+  "Preis (€)": 2.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Lasagne",
+  "SKU": "SKU1424",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Hawaii",
+  "SKU": "SKU1425",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gefrorene Himbeeren",
+  "SKU": "SKU1426",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fischfilets",
+  "SKU": "SKU1427",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schokoladeneis",
+  "SKU": "SKU1428",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsebratlinge",
+  "SKU": "SKU1429",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Thunfisch",
+  "SKU": "SKU1430",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Garnelenspieße",
+  "SKU": "SKU1431",
+  "Preis (€)": 7.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsequiche",
+  "SKU": "SKU1432",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Chicken Nuggets",
+  "SKU": "SKU1433",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeer-Rhabarber-Kuchen",
+  "SKU": "SKU1434",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsepfanne",
+  "SKU": "SKU1435",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Vegetarisch",
+  "SKU": "SKU1436",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pilzsuppe",
+  "SKU": "SKU1437",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühltorte Schwarzwälder Kirschtorte",
+  "SKU": "SKU1438",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Grüner Smoothie",
+  "SKU": "SKU1439",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüse-Nuggets",
+  "SKU": "SKU1440",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pizza Tonno",
+  "SKU": "SKU1441",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüseburger",
+  "SKU": "SKU1442",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blattspinat",
+  "SKU": "SKU1443",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Schokolade",
+  "SKU": "SKU1444",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pommes mit Ketchup",
+  "SKU": "SKU1445",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza BBQ Chicken",
+  "SKU": "SKU1446",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Beerenmix",
+  "SKU": "SKU1447",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fischfilets in Knoblauchbutter",
+  "SKU": "SKU1448",
+  "Preis (€)": 6.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüselasagne",
+  "SKU": "SKU1449",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeer-Joghurt-Eis",
+  "SKU": "SKU1450",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsesuppe",
+  "SKU": "SKU1451",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Kartoffelpuffer",
+  "SKU": "SKU1452",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gefrorene Pfirsiche",
+  "SKU": "SKU1453",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Vier Käse",
+  "SKU": "SKU1454",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Spinat-Ricotta-Ravioli",
+  "SKU": "SKU1455",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hähnchenschnitzel",
+  "SKU": "SKU1456",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blumenkohlröschen",
+  "SKU": "SKU1457",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Erdbeere",
+  "SKU": "SKU1458",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüseburger",
+  "SKU": "SKU1459",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Gemüse",
+  "SKU": "SKU1460",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüse-Smoothie",
+  "SKU": "SKU1461",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Broccoli",
+  "SKU": "SKU1462",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fischstäbchen",
+  "SKU": "SKU1463",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Mango-Sorbet",
+  "SKU": "SKU1464",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gefrorene Blaubeeren",
+  "SKU": "SKU1465",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Chicken Wings",
+  "SKU": "SKU1466",
+  "Preis (€)": 6.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Cookies & Cream",
+  "SKU": "SKU1467",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsesuppe",
+  "SKU": "SKU1468",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pizza Vegetarisch",
+  "SKU": "SKU1469",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsecurry",
+  "SKU": "SKU1470",
+  "Preis (€)": 4.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Chicken Nuggets",
+  "SKU": "SKU1471",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Himbeer-Sorbet",
+  "SKU": "SKU1472",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gefrorene Mango-Stücke",
+  "SKU": "SKU1473",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeer-Rhabarber-Pie",
+  "SKU": "SKU1474",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Peperoni",
+  "SKU": "SKU1475",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüse-Tortellini",
+  "SKU": "SKU1476",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fischfilet in Kräuterkruste",
+  "SKU": "SKU1477",
+  "Preis (€)": 7.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüse-Nudelauflauf",
+  "SKU": "SKU1478",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Pistazie",
+  "SKU": "SKU1479",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Brokkoli",
+  "SKU": "SKU1480",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüselasagne",
+  "SKU": "SKU1481",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Pepperoni",
+  "SKU": "SKU1482",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsemix",
+  "SKU": "SKU1483",
+  "Preis (€)": 2.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Schoko-Minz",
+  "SKU": "SKU1484",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Pommes Frites",
+  "SKU": "SKU1485",
+  "Preis (€)": 1.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hähnchen-Nuggets",
+  "SKU": "SKU1486",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Supreme",
+  "SKU": "SKU1487",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Mango",
+  "SKU": "SKU1488",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blattspinat",
+  "SKU": "SKU1489",
+  "Preis (€)": 1.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fischstäbchen",
+  "SKU": "SKU1490",
+  "Preis (€)": 5.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsepfanne",
+  "SKU": "SKU1491",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Hähnchenbrustfilet",
+  "SKU": "SKU1492",
+  "Preis (€)": 6.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Gemüse",
+  "SKU": "SKU1493",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Haselnuss",
+  "SKU": "SKU1494",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gefrorene Himbeeren",
+  "SKU": "SKU1495",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blumenkohlröschen",
+  "SKU": "SKU1496",
+  "Preis (€)": 1.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsequiche",
+  "SKU": "SKU1497",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fischfilet",
+  "SKU": "SKU1498",
+  "Preis (€)": 6.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Schokoladeneis",
+  "SKU": "SKU1499",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüseburger",
+  "SKU": "SKU1500",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Vier Jahreszeiten",
+  "SKU": "SKU1501",
+  "Preis (€)": 4.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeer-Joghurt-Eis",
+  "SKU": "SKU1502",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gefrorene Erdbeeren",
+  "SKU": "SKU1503",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Chicken Wings",
+  "SKU": "SKU1504",
+  "Preis (€)": 7.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsesuppe",
+  "SKU": "SKU1505",
+  "Preis (€)": 2.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Tonno",
+  "SKU": "SKU1506",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Cookie Dough",
+  "SKU": "SKU1507",
+  "Preis (€)": 4.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüsecurry",
+  "SKU": "SKU1508",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Fischburger",
+  "SKU": "SKU1509",
+  "Preis (€)": 5.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Blattspinat mit Sahne",
+  "SKU": "SKU1510",
+  "Preis (€)": 2.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Champignon",
+  "SKU": "SKU1511",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüse-Nuggets",
+  "SKU": "SKU1512",
+  "Preis (€)": 4.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Vanilleeis",
+  "SKU": "SKU1513",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Brokkoliröschen",
+  "SKU": "SKU1514",
+  "Preis (€)": 1.89,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Tiefkühlpizza Hawaii",
+  "SKU": "SKU1515",
+  "Preis (€)": 3.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Erdbeersorbet",
+  "SKU": "SKU1516",
+  "Preis (€)": 3.29,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gemüseravioli",
+  "SKU": "SKU1517",
+  "Preis (€)": 4.49,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Chicken Nuggets",
+  "SKU": "SKU1518",
+  "Preis (€)": 4.99,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Eiscreme Erdbeer",
+  "SKU": "SKU1519",
+  "Preis (€)": 3.79,
+  "Verfügbarkeit": "Ja"
+},
+{
+  "Produktname": "Gefrorene Mangostücke",
+  "SKU": "SKU1520",
+  "Preis (€)": 3.49,
+  "Verfügbarkeit": "Ja"
+}]
