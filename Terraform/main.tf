@@ -19,6 +19,24 @@ resource "aws_subnet" "control-panel" {
     Name = "Control Panel Subnet"
   }
 }
+resource "aws_subnet" "eu-central-1b" {
+  vpc_id                  = aws_vpc.example_vpc.id
+  cidr_block              = "10.0.3.0/24"
+  availability_zone       = "eu-central-1b"
+  map_public_ip_on_launch = true
+  tags = {
+    Name = "eu-central-1b Subnet"
+  }
+}
+resource "aws_subnet" "eu-central-1c" {
+  vpc_id                  = aws_vpc.example_vpc.id
+  cidr_block              = "10.0.4.0/24"
+  availability_zone       = "eu-central-1c"
+  map_public_ip_on_launch = true
+  tags = {
+    Name = "eu-central-1c Subnet"
+  }
+}
 
 resource "aws_internet_gateway" "example_igw" {
   vpc_id = aws_vpc.example_vpc.id
@@ -34,6 +52,14 @@ resource "aws_route_table" "example_route_table" {
 
 resource "aws_route_table_association" "example_association" {
   subnet_id      = aws_subnet.control-panel.id
+  route_table_id = aws_route_table.example_route_table.id
+}
+resource "aws_route_table_association" "example_association_b" {
+  subnet_id      = aws_subnet.eu-central-1b.id
+  route_table_id = aws_route_table.example_route_table.id
+}
+resource "aws_route_table_association" "example_association_c" {
+  subnet_id      = aws_subnet.eu-central-1c.id
   route_table_id = aws_route_table.example_route_table.id
 }
 
@@ -108,6 +134,41 @@ resource "aws_instance" "ansible" {
   subnet_id              = aws_subnet.control-panel.id
   tags = {
     Name = "ansible"
+  }
+  user_data = <<-EOF
+    #!/bin/bash
+    yum update -y
+    yum install -y docker
+    systemctl enable docker
+    systemctl start docker
+    docker run -d -p 80:80 bestione/shopwize:latest
+  EOF
+}
+resource "aws_instance" "ansible_b" {
+  vpc_security_group_ids = [aws_security_group.example_security_group.id]
+  ami                    = "ami-0f673487d7e5f89ca"
+  instance_type          = "t2.micro"
+  subnet_id              = aws_subnet.eu-central-1b.id
+  tags = {
+    Name = "ansible-eu-central-1b"
+  }
+  user_data = <<-EOF
+    #!/bin/bash
+    yum update -y
+    yum install -y docker
+    systemctl enable docker
+    systemctl start docker
+    docker run -d -p 80:80 bestione/shopwize:latest
+  EOF
+}
+
+resource "aws_instance" "ansible_c" {
+  vpc_security_group_ids = [aws_security_group.example_security_group.id]
+  ami                    = "ami-0f673487d7e5f89ca"
+  instance_type          = "t2.micro"
+  subnet_id              = aws_subnet.eu-central-1c.id
+  tags = {
+    Name = "ansible-eu-central-1c"
   }
   user_data = <<-EOF
     #!/bin/bash

@@ -17,3 +17,11 @@ output "instance_ansible2" {
   description = "Public IP address Ansible2 (EC2)"
   value       = aws_instance.ansible2.public_ip
 }
+output "instance_ansible_b" {
+  description = "Public IP address of Ansible (EC2) in subnet eu-central-1b"
+  value       = aws_instance.ansible_b.public_ip
+}
+output "instance_ansible_c" {
+  description = "Public IP address of Ansible (EC2) in subnet eu-central-1c"
+  value       = aws_instance.ansible_c.public_ip
+}
