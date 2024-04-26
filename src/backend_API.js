@@ -1,37 +1,31 @@
-// server.js (Node.js mit Express)
+// Annahme: Sie verwenden Express.js für Ihr Backend
 
+// Importieren Sie erforderliche Module
 const express = require('express');
-const { MongoClient } = require('mongodb'); // Verwenden Sie den MongoDB-Treiber
-const app = express();
+const router = express.Router();
+const mongoose = require('mongoose');
 
-// Verbindung zur MongoDB herstellen
-const uri = 'mongodb://localhost:27017/shopwise'; // Ihre MongoDB-Verbindungs-URI hier einfügen
-const client = new MongoClient(uri );
+// Verbindung zur MongoDB-Datenbank herstellen
+mongoose.connect('mongodb://localhost:27017/shopwise', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+const Product = require('../models/Product'); // Annahme: Sie haben ein Product-Modell definiert
 
-async function connectToMongoDB() {
+// Route zum Abrufen des Preises für ein Produkt
+router.get('/products/:productName/price', async (req, res) => {
   try {
-    await client.connect();
-    console.log('Connected to MongoDB');
-  } catch (err) {
-    console.error('Could not connect to MongoDB', err);
-    // Beenden der Anwendung bei Verbindungsfehler
-    process.exit(1);
-  }
-}
-
-connectToMongoDB();
-
-// API-Endpunkt zum Abrufen von Produktdaten
-app.get('/api/products', async (req, res) => {
-  try {
-    const db = client.db();
-    const products = await db.collection('products').find().toArray();
-    res.json(products);
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ message: 'Server Error' });
+    const { productName } = req.params;
+    const product = await Product.findOne({ Produktname: productName });
+    if (!product) {
+      return res.status(404).json({ error: 'Produkt nicht gefunden' });
+    }
+    res.json({ price: product['Preis (€)'] }); // Senden Sie den Preis als JSON-Antwort
+  } catch (error) {
+    console.error('Fehler beim Abrufen des Preises:', error);
+    res.status(500).json({ error: 'Interner Serverfehler' });
   }
 });
 
-const port = process.env.PORT || 5000;
-app.listen(port, () => console.log(`Server running on port ${port}`));
+
+module.exports = router;

@@ -8,7 +8,7 @@ function App() {
 // der Text des Eingabefeldes, die Menge pro Produkt, die aktuelle ID und die Kategorie)
 
 // Zustand für die Liste von Produkten 
-const [items, setItems] = useState([]); 
+
 // Zustand für den Hinzufügen/Aktualisieren-Button 
 const [isAddButton, setIsAddButton] = useState(true); 
 // Zustand für die Menge pro Produkt 
@@ -27,6 +27,10 @@ const [userName, setUserName] = useState("");
 const [savedUsers, setSavedUsers] = useState([]);  
 // Zustand für den ausgewählten Benutzer 
 const [selectedUser, setSelectedUser] = useState(null); 
+const [items, setItems] = useState([]);
+const [itemName, setItemName] = useState('');
+const [itemPrice, setItemPrice] = useState('');
+
 
   // ID für das Eingabefeld
   let fieldID = "inputfield_newitem";
@@ -38,22 +42,41 @@ const [selectedUser, setSelectedUser] = useState(null);
     }
   }, [selectedUser]);
   // Funktion zum Hinzufügen oder Aktualisieren eines Produkts
-
-  function updateItemList() {
+  async function updateItemList() {
+    const itemName = document.getElementById("inputfield_newitem").value;
     const id = currentId;
     const value = document.getElementById(fieldID).value;
   
-    // Neues Element erstellen
-    let newItem = {
-      value,
-      quantity,
-      unit,
-      id,
-      category,
-    };
+    
+    try {
+      // Anfrage an Backend senden, um Preis abzurufen
+      const response = await fetch(`/api/products/${itemName}/price`);
+      const data = await response.json();
+      // Preis des Produkts setzen
+      setItemPrice(data.price);
+
+      const newItem = {
+        value: itemName,
+        quantity,
+        unit,
+        id: currentId,
+        category,
+        price: data.price, // P
+      };
+
+      // Element zur Liste hinzufügen
+      setItems([...items, newItem]);
+
+      // Eingabefeld zurücksetzen
+      setItemName('');
+    } catch (error) {
+      console.error('Fehler beim Aktualisieren der Liste:', error);
+    }
+  }
+ 
   
     // Überprüfen, ob der Produktname nicht leer ist
-    if (newItem.value !== "") {
+    if (itemName.trim() !== "") {
       // Überprüfen, ob das Element bearbeitet wird
       if (editingItem !== null) {
         // Aktualisierte Liste mit bearbeitetem Element erstellen
@@ -68,13 +91,18 @@ const [selectedUser, setSelectedUser] = useState(null);
         setItems([...items, newItem]);
       }
       // Eingabefeld zurücksetzen und Zustände aktualisieren
-      document.getElementById(fieldID).value = "";
+      document.getElementById("inputfield_newitem").value = "";
       setQuantity(1);
       setUnit("stk");
       setCurrentId(currentId + 1);
       setCategory("Lebensmittel");
     }
   }
+  
+    console.error('Fehler beim Abrufen des Preises:', error.message);
+    // Hier können Sie eine Benachrichtigung für den Benutzer hinzufügen, dass der Preis nicht abgerufen werden konnte
+
+
   
   // Funktion zum Löschen eines Produkts
   function deleteItem(id) {
@@ -189,7 +217,6 @@ const [selectedUser, setSelectedUser] = useState(null);
   }
   // JSX für die Darstellung der Komponente
   return (
-    <>
       <div className="container mt-3">
         <div className="input-group row justify-content-md-center gap-3">
           {/* Eingabefeld für den Namen des Einkäufers */}
@@ -304,6 +331,7 @@ const [selectedUser, setSelectedUser] = useState(null);
             <tr>
               <th scope="col">#</th>
               <th scope="col">✔</th>
+              <th scope="col">Preis</th>
               <th scope="col">Produkt</th>
               <th scope="col">Menge</th>
               <th scope="col">Einheit</th>
@@ -318,6 +346,9 @@ const [selectedUser, setSelectedUser] = useState(null);
               <tr key={item.id}>
                 <th scope="row">{index + 1}</th>
                 <th scope="row"><input type="checkbox" class="form-check-input" /></th>
+               {/* preisabfrage verlinkung */}
+               <td>{item.price} €</td>
+
                 <td>{item.value}</td>
                 <td>{item.quantity}</td>
                 <td>{item.unit}</td>

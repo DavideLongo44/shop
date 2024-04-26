@@ -38,7 +38,7 @@
   "_id": {
     "$oid": "662ab1eb30051ec44caea730"
   },
-  "Produktname": "Bauernbrot",
+  "Produktname": "https://www.mongodb.com/try/download/community",
   "SKU": "SKU1315",
   "Preis (€)": 3.49,
   "Verfügbarkeit": "Ja"

@@ -12,25 +12,18 @@
 // Select the database to use.
 use('shopwise');
 //produkt preis anzeigen lassen
-db.artikel.findOne({ "Produktname": "Bodenreiniger" }, { "Preis (€)": 1 })
+db.artikel.findOne({ "Produktname": "Muffin" }, { "Preis (€)": 1 })
 //Einzelnen Artikel nach SKU abrufen
 db.artikel.findOne({ "SKU": "SKU1311" })
 //Artikel unter einem bestimmten Preis abrufen
 db.artikel.find({ "Preis (€)": { $lt: 2.00 } })
 //Verfügbare Artikel abrufen
-db.artikel.find({ "Verfügbarkeit": "Ja" })
+//db.artikel.find({ "Verfügbarkeit": "Ja" })
 //Artikel nach Namen sortieren
-db.artikel.find().sort({ "produktname": 1 })
+//db.artikel.find().sort({ "produktname": 1 })
 //Artikeldetails aktualisieren
-db.artikel.updateOne(
-    { "SKU": "SKU1311" },
-    { $set: { "preis (€)": 2.29 } }
- )
+//db.artikel.updateOne(
+  //  { "SKU": "SKU1311" },
+  //  { $set: { "preis (€)": 2.29 } }
+ //)
  //Ein neues Artikel hinzufügen
- db.artikel.insertOne({
-    "produktname": "Neues Artikel",
-    "SKU": "SKU9999",
-    "preis (€)": 5.99,
-    "verfügbarkeit": "Ja"
- })
- 
