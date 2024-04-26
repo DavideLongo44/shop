@@ -123,7 +123,7 @@ resource "aws_instance" "control_panel" {
     yum install -y ansible git 
     systemctl enable ansible
     systemctl start ansible
-    git clone --depth=1 --branch=Ansible https://github.com/DavideLongo44/shop.git home/ec2-user/ansible 
+    git clone --depth=1 --branch=Ansible https://github.com/DavideLongo44/shop.git home/ec2-user/
   EOF
 }
 
@@ -135,6 +135,9 @@ resource "aws_instance" "ansible" {
   tags = {
     Name = "ansible"
   }
+ lifecycle {
+  prevent_destroy = true
+}
   user_data = <<-EOF
     #!/bin/bash
     yum update -y
@@ -188,6 +191,9 @@ resource "aws_instance" "ansible2" {
   tags = {
     Name = "monitor"
   }
+  lifecycle {
+   prevent_destroy = true
+}
   user_data = <<-EOF
     #!/bin/bash
     yum update -y
@@ -197,4 +203,59 @@ resource "aws_instance" "ansible2" {
     docker run -d -p 3000:3000 --name=grafana grafana/grafana:latest
     docker run -d -p 9090:9090 --name=prometheus prom/prometheus:latest
   EOF
+}
+resource "aws_lb" "example_lb" {
+  name                = "shopwise-load-balancer"
+  internal            = false
+  load_balancer_type  = "application"
+  subnets             = [aws_subnet.control-panel.id, aws_subnet.eu-central-1b.id, aws_subnet.eu-central-1c.id] 
+  security_groups     = [aws_security_group.example_security_group.id]
+  lifecycle {
+    prevent_destroy = true
+  }  
+}
+resource "aws_lb_target_group" "example_target_group" {
+  name        = "example-target-group"
+  port        = 80
+  protocol    = "HTTP"
+  vpc_id      = aws_vpc.example_vpc.id
+  target_type = "instance"
+
+  health_check {
+    path                = "/"
+    port                = 80
+    protocol            = "HTTP"
+    timeout             = 5
+    interval            = 10
+    healthy_threshold   = 2
+    unhealthy_threshold = 2
+  }
+}
+resource "aws_lb_listener" "example_listener" {
+  load_balancer_arn = aws_lb.example_lb.arn
+  port              = 80
+  protocol          = "HTTP"
+
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.example_target_group.arn
+  }
+}
+resource "aws_lb_target_group_attachment" "example_attachment_ansible" {
+  target_group_arn = aws_lb_target_group.example_target_group.arn
+  target_id = aws_instance.ansible.id
+  port = 80
+  
+}
+resource "aws_lb_target_group_attachment" "example_attachment_ansible_b" {
+  target_group_arn = aws_lb_target_group.example_target_group.arn
+  target_id = aws_instance.ansible_b.id
+  port = 80
+  
+}
+resource "aws_lb_target_group_attachment" "example_attachment_ansible_c" {
+  target_group_arn = aws_lb_target_group.example_target_group.arn
+  target_id = aws_instance.ansible_c.id
+  port = 80
+  
 }

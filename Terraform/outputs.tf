@@ -13,8 +13,8 @@ output "instance_ansible" {
   value       = aws_instance.ansible.public_ip
 }
 
-output "instance_ansible2" {
-  description = "Public IP address Ansible2 (EC2)"
+output "instance_monitor" {
+  description = "Public IP address monitor (EC2)"
   value       = aws_instance.ansible2.public_ip
 }
 output "instance_ansible_b" {
@@ -24,4 +24,7 @@ output "instance_ansible_b" {
 output "instance_ansible_c" {
   description = "Public IP address of Ansible (EC2) in subnet eu-central-1c"
   value       = aws_instance.ansible_c.public_ip
+}
+output "load_balancer_dns_name" {
+  value = aws_lb.example_lb.dns_name
 }
