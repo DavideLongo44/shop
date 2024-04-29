@@ -222,7 +222,7 @@ const [selectedUser, setSelectedUser] = useState(null);
           />
           {/* Dropdown-Menü für die Einheit */}
           <select
-            className="col-1 fs-4 rounded text-center border-0"
+            className="col-0.25 fs-4 rounded text-center border-0"
             value={unit}
             onChange={(e) => setUnit(e.target.value)}
           >
@@ -231,6 +231,7 @@ const [selectedUser, setSelectedUser] = useState(null);
             <option value="stk">stk</option>
             <option value="pkg">pkg</option>
           </select>
+
           {/* Dropdown-Menü für die Kategorie */}
           <select
             className="col-2 fs-5 rounded text-center border-0 kategorie"

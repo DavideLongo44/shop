@@ -1,3 +1,43 @@
+/* app.css */
+/* Adicionando borda aos itens da lista */
+.item-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Animação de adição de item */
+.added-animation {
+  animation: addedAnimation 0.5s;
+}
+
+@keyframes addedAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animação de remoção de item */
+.deleted-animation {
+  animation: deletedAnimation 0.5s;
+}
+
+@keyframes deletedAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Hintergrundfarbe des Body */
 body {
   background-color: rgb(104, 190, 244);
