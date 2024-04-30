@@ -1,86 +1,114 @@
-/* Hintergrundfarbe des Body */
 body {
-  background-color: rgb(104, 190, 244);
+  background-color:rgb(104, 190, 244);
+}
+@keyframes drehen {
+  von {
+    transform: rotate(0deg);
+  }
+  bis {
+    transform: rotate(360deg);
+  }
 }
 
+.logo-drehen {
+  animation: rotate 16s linear infinite;
+}
 /* Logo */
 img {
-  max-width: 100%;
-  height: 520px;
+  width: 500px;
+  height: 310px;
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+  
+ /* Motto */
+h1 {
+  text-align:center;
+  margin-right: 90px;
 }
 
 /* Motto */
 h1 {
-  text-align: center;
-  margin: auto;
+text-align:center;
+margin-right: 90px;
 }
 
 /* Buttons */
 .btn-outline-warning {
-  width: 200px;
-  height: 50px;
-  margin: 10px;
-  font-size: 18px;
+  text-align: center;
+  width: 15%;
+  margin: auto;
+  margin-right: 1%;
   background-color: orange;
   color: white;
-  border: none;
+  border: 0cap;
+  font-size: 20px;
+  cursor: pointer;
+  }
+
+  /* Add Button */
+.add-button {
+  width: 200px !important;
+  height: 50px;
+  margin-left: -10px;
+}
+
+  /* Specihern Button */
+.save-button {
+width: 190px !important;
+}
+
+  /* Zurücksetzen Button */
+.reset-button {
+width: 190px !important;
+}
+
+  /* Liste löschen Button */
+.deletelist-button {
+width: 190px !important;
+}
+
+/* Download list Button */
+.downloadlist-button {
+  margin-left: 1186px;
+  width: 12%;
+}
+
+.container {
+width: 80%;
+margin: auto;
+}
+
+.input-group {
+width: 100%;
+text-align: center;
+}
+
+.justify-content-md-center {
+margin: auto;
+}
+  /* Bearbeiten Icon */
+.bi-pencil-square {
+  text-align: center;
+  margin-left: 50px;
+  cursor: pointer;
+}
+  /* Löschen Icon */
+.bi-trash {
+  text-align: center;
+  margin-left: 37px;
   cursor: pointer;
 }
 
-/* Download-Liste-Button */
-.downloadlist-button {
-  width: auto;
-  height: 50px;
-  margin: 10px;
-  font-size: 18px;
+.einkäufer {
+width: 320px !important;
 }
 
-/* Container */
-.container {
-  width: 80%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
-  overflow: hidden;
-  position: relative;
+.einkaufslisten {
   text-align: center;
-}
-
-/* Eingabegruppe */
-.input-group {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-/* Einheitliche Breite für Eingabefelder und Dropdowns */
-.input-group input[type="text"],
-.input-group input[type="number"],
-.input-group select {
-  width: 200px;
-  margin: 10px;
-}
-
-/* Ausrichtung von Text und Elementen */
-.container {
-  text-align: center;
-}
-
-/* Effekte für das Mouseover-Verhalten der Icons */
-.bi-trash:hover,
-.bi-pencil-square:hover {
-  transform: scale(1.2);
-}
-
-/* Media-Query für kleine Bildschirme */
-@media (max-width: 768px) {
-  /* Anpassungen für kleine Bildschirme */
-  .input-group input[type="text"],
-  .input-group input[type="number"],
-  .input-group select,
-  .btn-outline-warning {
-    width: 100%;
-  }
+  border: 0cap;
+  height: 41.5px;
 }
