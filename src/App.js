@@ -1,6 +1,7 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 import jsPDF from 'jspdf';
+
 function App() {
 // Zustände für die Liste von Produkten, den Zustand des Hinzufügen/Aktualisieren-Buttons,
 // den Text des Eingabefelds, die Menge pro Produkt, die aktuelle ID und die Kategorie
@@ -8,7 +9,7 @@ function App() {
 // der Text des Eingabefeldes, die Menge pro Produkt, die aktuelle ID und die Kategorie)
 
 // Zustand für die Liste von Produkten 
-
+const [items, setItems] = useState([]); 
 // Zustand für den Hinzufügen/Aktualisieren-Button 
 const [isAddButton, setIsAddButton] = useState(true); 
 // Zustand für die Menge pro Produkt 
@@ -27,10 +28,6 @@ const [userName, setUserName] = useState("");
 const [savedUsers, setSavedUsers] = useState([]);  
 // Zustand für den ausgewählten Benutzer 
 const [selectedUser, setSelectedUser] = useState(null); 
-const [items, setItems] = useState([]);
-const [itemName, setItemName] = useState('');
-const [itemPrice, setItemPrice] = useState('');
-
 
   // ID für das Eingabefeld
   let fieldID = "inputfield_newitem";
@@ -42,41 +39,22 @@ const [itemPrice, setItemPrice] = useState('');
     }
   }, [selectedUser]);
   // Funktion zum Hinzufügen oder Aktualisieren eines Produkts
-  async function updateItemList() {
-    const itemName = document.getElementById("inputfield_newitem").value;
+
+  function updateItemList() {
     const id = currentId;
     const value = document.getElementById(fieldID).value;
   
-    
-    try {
-      // Anfrage an Backend senden, um Preis abzurufen
-      const response = await fetch(`/api/products/${itemName}/price`);
-      const data = await response.json();
-      // Preis des Produkts setzen
-      setItemPrice(data.price);
-
-      const newItem = {
-        value: itemName,
-        quantity,
-        unit,
-        id: currentId,
-        category,
-        price: data.price, // P
-      };
-
-      // Element zur Liste hinzufügen
-      setItems([...items, newItem]);
-
-      // Eingabefeld zurücksetzen
-      setItemName('');
-    } catch (error) {
-      console.error('Fehler beim Aktualisieren der Liste:', error);
-    }
-  }
- 
+    // Neues Element erstellen
+    let newItem = {
+      value,
+      quantity,
+      unit,
+      id,
+      category,
+    };
   
     // Überprüfen, ob der Produktname nicht leer ist
-    if (itemName.trim() !== "") {
+    if (newItem.value !== "") {
       // Überprüfen, ob das Element bearbeitet wird
       if (editingItem !== null) {
         // Aktualisierte Liste mit bearbeitetem Element erstellen
@@ -91,18 +69,13 @@ const [itemPrice, setItemPrice] = useState('');
         setItems([...items, newItem]);
       }
       // Eingabefeld zurücksetzen und Zustände aktualisieren
-      document.getElementById("inputfield_newitem").value = "";
+      document.getElementById(fieldID).value = "";
       setQuantity(1);
       setUnit("stk");
       setCurrentId(currentId + 1);
       setCategory("Lebensmittel");
     }
   }
-  
-    console.error('Fehler beim Abrufen des Preises:', error.message);
-    // Hier können Sie eine Benachrichtigung für den Benutzer hinzufügen, dass der Preis nicht abgerufen werden konnte
-
-
   
   // Funktion zum Löschen eines Produkts
   function deleteItem(id) {
@@ -217,6 +190,7 @@ const [itemPrice, setItemPrice] = useState('');
   }
   // JSX für die Darstellung der Komponente
   return (
+    <>
       <div className="container mt-3">
         <div className="input-group row justify-content-md-center gap-3">
           {/* Eingabefeld für den Namen des Einkäufers */}
@@ -331,7 +305,6 @@ const [itemPrice, setItemPrice] = useState('');
             <tr>
               <th scope="col">#</th>
               <th scope="col">✔</th>
-              <th scope="col">Preis</th>
               <th scope="col">Produkt</th>
               <th scope="col">Menge</th>
               <th scope="col">Einheit</th>
@@ -346,9 +319,6 @@ const [itemPrice, setItemPrice] = useState('');
               <tr key={item.id}>
                 <th scope="row">{index + 1}</th>
                 <th scope="row"><input type="checkbox" class="form-check-input" /></th>
-               {/* preisabfrage verlinkung */}
-               <td>{item.price} €</td>
-
                 <td>{item.value}</td>
                 <td>{item.quantity}</td>
                 <td>{item.unit}</td>
@@ -388,4 +358,3 @@ const [itemPrice, setItemPrice] = useState('');
 }
 
 export default App;
-

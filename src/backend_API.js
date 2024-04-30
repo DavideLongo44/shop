@@ -10,7 +10,7 @@ mongoose.connect('mongodb://localhost:27017/shopwise', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
-const Product = require('../models/Product'); // Annahme: Sie haben ein Product-Modell definiert
+const Product = require('./App.js'); // Annahme: Sie haben ein Product-Modell definiert
 
 // Route zum Abrufen des Preises für ein Produkt
 router.get('/products/:productName/price', async (req, res) => {

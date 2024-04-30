@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^13.7.2"
+    "cypress": "^13.7.2",
+    "webpack": "^5.91.0"
   }
 }
