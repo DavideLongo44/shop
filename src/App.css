@@ -1,4 +1,5 @@
 /* app.css */
+
 /* Adicionando borda aos itens da lista */
 .item-row {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -172,7 +173,7 @@ h1 {
 .input-group input[type="text"],
 .input-group input[type="number"],
 .input-group select {
-  width: 190px;
+  width: 150px; /* Adjusted width for the "Einheit" field */
   margin: 10px;
 }
 
