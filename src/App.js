@@ -2,6 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import jsPDF from 'jspdf';
 
+
 function App() {
   // Zustände
   const [items, setItems] = useState([]);
@@ -14,6 +15,19 @@ function App() {
   const [userName, setUserName] = useState("");
   const [savedUsers, setSavedUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
+  const express = require('express');
+  const bodyParser = require('body-parser');
+  const artikelRoutes = require('./routes/artikel');
+
+  const app = express();
+app.use(bodyParser.json());
+
+app.use('/artikel', artikelRoutes);
+
+const PORT = 3000;
+app.listen(PORT, () => {
+    console.log(`Server läuft auf Port ${PORT}`);
+});
 
   useEffect(() => {
     if(selectedUser) {
