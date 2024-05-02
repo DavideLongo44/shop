@@ -1,6 +1,7 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 import jsPDF from 'jspdf';
+import './routes/'
 
 
 function App() {
@@ -15,19 +16,36 @@ function App() {
   const [userName, setUserName] = useState("");
   const [savedUsers, setSavedUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
-  const express = require('express');
   const bodyParser = require('body-parser');
+  const express = require('express'); // Express importieren
   const artikelRoutes = require('./routes/artikel');
-
+  const MongoClient = require('mongodb').MongoClient;
   const app = express();
-app.use(bodyParser.json());
 
-app.use('/artikel', artikelRoutes);
+  app.use(bodyParser.json());
 
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Server läuft auf Port ${PORT}`);
-});
+  const DB_URL = 'mongodb://localhost:27017/shopwise';
+  let db;
+
+  MongoClient.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true }, (err, client) => {
+      if (err) {
+          console.error('Fehler beim Verbinden mit MongoDB:', err);
+          process.exit(1);
+      }
+      console.log("Datenbankverbindung hergestellt!");
+      db = client.db();
+
+      app.use('/artikel', artikelRoutes);
+
+      const PORT = 3000;
+      app.listen(PORT, () => {
+          console.log(`Server läuft auf Port ${PORT}`);
+      });
+  });
+
+// useEffect und fetch sind Frontend-Konzepte, die nicht in diesem Backend-Code verwendet werden können
+// Bitte stelle weitere Details oder den Frontend-Code bereit, um sie zu überprüfen
+
 
   useEffect(() => {
     if(selectedUser) {
@@ -48,7 +66,8 @@ app.listen(PORT, () => {
           name: itemName,
           quantity: quantity,
           unit: unit,
-          category: category
+          category: category,
+          price: db.price
         })
       });
   
