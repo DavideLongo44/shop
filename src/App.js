@@ -190,24 +190,25 @@ const [selectedUser, setSelectedUser] = useState(null);
   // JSX für die Darstellung der Komponente
   return (
     <>
-      <div className="container mt-3">
-        <div className="input-group row justify-content-md-center gap-3">
+      <div className="container mt-4">
+        <div className="input-group row justify-content-md-center gap-1.5">
+          
           {/* Eingabefeld für den Namen des Einkäufers */}
           <input
             type="text"
-
-            className="col-2 fs-5 rounded text-center border-0 w-25 p-2 einkäufer"
-
+            className="col-2 fs-6 rounded text-center border-0 w-25 p-2 einkäufer mt-3"
             placeholder="Name des Einkäufers"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
           />
+
           {/* Eingabefeld für den Produktname */}
           <input
             id={fieldID}
             type="text"
-
-            className="col-2 fs-5 rounded text-center border-0 w-26"
+            className="col-2 fs- rounded text-center border-0 p-2 mt-3"
+            style={{ width: '291px' }}
+            
 
             placeholder="Neues Produkt"
             aria-describedby="basic-addon2"
@@ -215,14 +216,16 @@ const [selectedUser, setSelectedUser] = useState(null);
           {/* Eingabefeld für die Menge */}
           <input
             type="number"
-            className="col-1 fs-5 rounded text-center border-0"
+            className="col-1 fs-6 rounded text-center border-0 p-2 mt-3"
+            style={{ width: '70px' }} // Adjusted width, change '70px' to the desired width
             value={quantity}
             onChange={(e) => setQuantity(e.target.value)}
             min="1"
           />
           {/* Dropdown-Menü für die Einheit */}
           <select
-            className="col-1 fs-5 rounded text-center border-0"
+            className="col-0.25 fs-6 rounded text-center border-0 mt-3"
+            style={{ width: '70px' }} // Adjusted width, change '70px' to the desired width
             value={unit}
             onChange={(e) => setUnit(e.target.value)}
           >
@@ -231,9 +234,11 @@ const [selectedUser, setSelectedUser] = useState(null);
             <option value="stk">stk</option>
             <option value="pkg">pkg</option>
           </select>
-          {/* Dropdown-Menü für die Kategorie */}
+
+          {/* Dropdown-Menü für die Kategorie "Lebensmittel usw." */}
           <select
-            className="col-2 fs-5 rounded text-center border-0 kategorie"
+            className="col-2 fs-6 rounded text-center border-0 kategorie mt-3"
+            style={{ width: '190px' }} // Adjusted width, change '190px' to the desired width
             value={category}
             onChange={(e) => setCategory(e.target.value)}
           >
@@ -247,55 +252,77 @@ const [selectedUser, setSelectedUser] = useState(null);
             <option value="Sonstiges">Sonstiges</option>
           </select>
           {/* Button zum Hinzufügen oder Aktualisieren */}
-          <div className="col-2 input-group-append">
+          <div className="col-2 fs-6 input-group-append rounded text-center border-0 w-27 p-0 mt-3">
             <button
               onClick={updateItemList}
               className="btn btn-outline-warning add-button"
+              style={{ width: '190px' }} // Adjusted width, change '190px' to the desired width
+              style={{ height: '40px' }} // Adjusted height, change '45px' to the desired height
             >
               {isAddButton === true ? "Hinzufügen" : "Aktualisieren"}
             </button>
           </div>
         </div>
+
         {/* Reihe für die Bedienungselemente: Speichern, Zurücksetzen und Auswahl des Benutzers */}
-        <div className="row justify-content-md-center mt-3">
-          {/* Button zum Speichern */}
-          <button
-            onClick={saveUserShopping}
+       
+    {/* Container for the dropdown menu and buttons */}
+    <div className="d-flex align-items-start flex-wrap">
 
-            className="btn btn-outline-warning save-button"
+      {/* Dropdown-Menü für die Auswahl gespeicherter Benutzer "Einkaufslisten" */}
+      <select
+        className="col-2 fs-6 rounded text-center border-0 einkaufslisten mt-3"
+        style={{ width: '290px', padding: '8px 10px' }} // Adjusted width and padding
+        value={selectedUser ? selectedUser.userName : ""}
+        onChange={(e) => selectUser(savedUsers.find(user => user.userName === e.target.value))}
+      >
+        <option value="" disabled>Einkaufslisten</option>
+        {savedUsers.map((user, index) => (
+          <option key={index} value={user.userName}>{user.userName}</option>
+        ))}
+      </select>
+      
+      {/* Buttons with fixed width and padding */}
+      <button
+        onClick={saveUserShopping}
+        className="btn btn-outline-warning save-button ml-2"
+        style={{ width: '120px', margin: '10px', padding: '8px 10px' }} // Adjusted width and padding
+      >
+        Speichern
+      </button>
 
-          >
-            Speichern
-          </button>
-          {/* Button zum Zurücksetzen */}
-          <button
-            onClick={resetShopping}
-            className="btn btn-outline-warning reset-button"
-          >
-            Zurücksetzen
-          </button>
+      <button
+        onClick={resetShopping}
+        className="btn btn-outline-warning reset-button ml-2 fs-6"
+        style={{ width: '180px', margin: '10px', padding: '8px 10px' }} // Adjusted width and padding
+      >
+        Zurücksetzen
+      </button>
 
-          <button
-          onClick={() => deleteCurrentUserList()}
-          className="btn btn-outline-warning deletelist-button"
-            >
-          Liste löschen
-        </button>
-          {/* Dropdown-Menü für die Auswahl gespeicherter Benutzer */}
-          <select
-            className="col fs-4 rounded text-center border-0 einkaufslisten"
-            value={selectedUser ? selectedUser.userName : ""}
-            onChange={(e) => selectUser(savedUsers.find(user => user.userName === e.target.value))}
-          >
-          
-            <option value="" disabled>Einkaufslisten</option>
-            {savedUsers.map((user, index) => (
-              <option key={index} value={user.userName}>{user.userName}</option>
-            ))}
-            
-          </select>
+      <button
+        onClick={downloadList}
+        className="btn btn-outline-warning downloadlist-button ml-2"
+        style={{ width: '160px', marginLeft: '160px', padding: '6px 10px' }} // Adjusted width and padding
+      >
+        Liste Download
+      </button>
 
-        </div>
+      <button
+        onClick={() => deleteCurrentUserList()}
+        className="btn btn-outline-warning deletelist-button ml-2 fs-8"
+        style={{ width: '200px', marginLeft: '300px', padding: '6px 8px' }} // Adjusted width and padding
+      >
+        Liste löschen
+      </button>
+</div>
+
+
+
+
+
+
+
+
       </div>
       {/* Anzeige der Liste von Produkten */}
       <div className="container mt-3">
@@ -340,16 +367,7 @@ const [selectedUser, setSelectedUser] = useState(null);
             ))}
           </tbody>
         </table>
-      </div>
-
-
-      <button
-          onClick={downloadList}
-          className="btn btn-outline-warning downloadlist-button"
-        >
-          Liste Download
-        </button>
-        
+      </div>   
         
     </>
     
