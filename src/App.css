@@ -1,6 +1,47 @@
+/* Adicionando borda aos itens da lista */
+.item-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Animação de adição de item */
+.added-animation {
+  animation: addedAnimation 0.5s;
+}
+
+@keyframes addedAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animação de remoção de item */
+.deleted-animation {
+  animation: deletedAnimation 0.5s;
+}
+
+@keyframes deletedAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Hintergrundfarbe des Body */
 body {
-  background-color: rgb(104, 190, 244);
+  background: linear-gradient(to right, rgb(185, 210, 222), rgb(74, 108, 128));
+  /* Fallback for older browsers */
+
 }
 
 /* Logo */
@@ -30,30 +71,16 @@ h1 {
 }
 
 /* Hinzufügen-Button */
-.add-button {
-  width: 300; /* Setzt die Breite basierend auf dem Inhalt */
-  max-width: 200px; /* Setzt eine maximale Breite */
-  height: 50px;
-  margin: 10px auto;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-/* Speichern-Button, Zurücksetzen-Button, Liste löschen-Button */
+.add-button,
 .save-button,
 .reset-button,
-.deletelist-button {
-  width: 190px;
-  margin: 10px;
-}
-
-/* Download-Liste-Button */
+.deletelist-button,
 .downloadlist-button {
-  width: auto;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 190px; /* Setzt eine maximale Breite */
+  height: 50px;
+  margin: 0px; /* Adds some space above the button */
+  text-overflow: ellipsis;
+  padding: auto;
 }
 
 /* Container */
@@ -89,23 +116,45 @@ h1 {
 }
 
 /* Einkäufer */
-.einkäufer {
-  width: 190px;
-  margin: 10px;
+.einkäufer,
+.kategorie {
+  font-family: Arial, sans-serif; /* Define a mesma fonte para os campos de texto */
+  width: calc(25% - 2px); /* Largura igual para os campos de texto */
+  margin-right: 5px; /* Espaçamento entre os campos */
+  margin-left: 6px;
+  padding: 5px; /* Preenchimento igual */
+  border: 1px solid #ccc; /* Borda com o mesmo tamanho */
+  border-radius: 4px; /* Borda arredondada */
 }
 
-/* Einkaufslisten */
-.einkaufslisten {
-  text-align: center;
-  width: 190px;
-  margin: 10px;
+input[type="number"] {
+  width: calc(10% - 2px); /* Largura igual para o campo de número */
+  margin-right: 6px; /* Espaçamento entre os campos */
+  margin-left: 6px;
+  padding: 5px; /* Preenchimento igual */
+  border: 1px solid #ccc; /* Borda com o mesmo tamanho */
+  border-radius: 4px; /* Borda arredondada */
 }
 
-/* Media-Query für kleine Bildschirme */
+.add-button,
+.save-button,
+.reset-button,
+.deletelist-button,
+.downloadlist-button {
+  width: calc(20% - 2px); /* Largura igual para os botões */
+  margin-right: 5px; /* Espaçamento entre os campos */
+  padding: 5px; /* Preenchimento igual */
+  border: 1px solid orange; /* Borda com o mesmo tamanho */
+  background-color: orange; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  border-radius: 4px; /* Borda arredondada */
+}
+
+/* Media-Query para pequenas telas */
 @media (max-width: 768px) {
   .container {
-    width: 100%;
-    padding: 0 10px;
+    width: 90%;
+    padding: 10px;
   }
 
   .einkäufer,
@@ -130,22 +179,30 @@ h1 {
   }
 }
 
-/* Eingabegruppe für Text- und Nummerfelder sowie Dropdowns */
+/* Eingabegrupo para campos de texto e número, e dropdowns */
 .input-group input[type="text"],
 .input-group input[type="number"],
 .input-group select {
-  width: 190px;
+  width: 150px; /* Adjusted width for the "Einheit" field */
   margin: 10px;
 }
 
-/* Effekte für das Mouseover-Verhalten des Papierkorbsymbols */
+/* Efeitos para o comportamento de mouseover do ícone de lixeira */
 .bi-trash:hover,
 .btn-outline-warning .bi-trash:hover {
   transform: scale(1.2);
 }
 
-/* Effekte für das Mouseover-Verhalten des Stiftsymbols */
+/* Efeitos para o comportamento de mouseover do ícone de lápis */
 .bi-pencil-square:hover,
 .btn-outline-warning .bi-pencil-square:hover {
   transform: scale(1.2);
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
