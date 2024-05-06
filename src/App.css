@@ -56,6 +56,8 @@ img {
 h1 {
   text-align: center;
   margin: 20px auto; /* Zentriert das Motto durch automatische Ränder */
+  font-family: ar;
+  
 }
 
 /* Buttons */
@@ -175,7 +177,37 @@ input[type="number"] {
   }
 
   .table {
-    font-size: 14px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table-rounded {
+    border-radius: 10px;
+  }  
+  
+}
+
+/* Media-Query para dispositivos de largura máxima de 480px (tamanho de celular) */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .einkäufer,
+  .einkaufslisten {
+    width: 100%;
+  }
+
+  .btn-outline-warning.add-button,
+  .btn-outline-warning.save-button,
+  .btn-outline-warning.reset-button,
+  .btn-outline-warning.deletelist-button,
+  .btn-outline-warning.downloadlist-button {
+    width: 100%;
+    margin: 5px 0; /* Ajuste o espaçamento entre os botões */
   }
 }
 
@@ -204,5 +236,10 @@ input[type="number"] {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin-bottom: 15px; /* Adiciona um espaço abaixo da tabela para evitar cortes em alguns dispositivos */
 }
 
