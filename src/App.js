@@ -1,9 +1,15 @@
+import React from 'react';
 import './App.css';
 import { useState, useEffect } from 'react';
 import jsPDF from 'jspdf';
 import { BiReset, BiDownload, BiTrash } from 'react-icons/bi'; // Importe os ícones BiReset, BiDownload e BiTrash
 import { BiSave } from 'react-icons/bi'; // Importe o ícone BiSave
-import { AiOutlinePlus } from 'react-icons/ai';
+import { AiOutlinePlus } from 'react-icons/ai'; // Importe o ícone AiOutlinePlus
+import { BiRefresh } from 'react-icons/bi';
+import { AiFillPlusCircle } from 'react-icons/ai'; // Importe o ícone AiFillPlusCircle
+
+
+
 
 function App() {
   const [items, setItems] = useState([]);
@@ -16,6 +22,12 @@ function App() {
   const [userName, setUserName] = useState("");
   const [savedUsers, setSavedUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
+
+  const handleCheck = (index) => {
+    const newItems = [...items];
+    newItems[index].completed = !newItems[index].completed;
+    setItems(newItems);
+  };
 
   let fieldID = "inputfield_newitem";
 
@@ -64,19 +76,26 @@ function App() {
     }
   }
 
-  function startEditing(item) {
-    const isConfirmed = window.confirm("Möchten Sie das Element wirklich bearbeiten?");
-    if (!isConfirmed) {
-      return;
-    }
-    setEditingItem(item);
-    setIsAddButton(false);
-
-    document.getElementById(fieldID).value = item.value;
-    setQuantity(item.quantity);
-    setUnit(item.unit);
-    setCategory(item.category);
+    // Funktion zum Starten der Bearbeitung eines Produkts
+    function startEditing(item) {
+      // Bestätigungsdialog für den Start der Bearbeitung anzeigen
+      const isConfirmed = window.confirm("Möchten Sie das Element wirklich bearbeiten?");
+      if (!isConfirmed) {
+        return;
+      }
+      // Bearbeitungsmodus aktivieren und Eingabefelder mit den Werten des ausgewählten Elements füllen
+      setEditingItem(item);
+      setIsAddButton(false);
+      
+      document.getElementById(fieldID).value = item.value;
+      setQuantity(item.quantity);
+      setUnit(item.unit);
+      setCategory(item.category);
+  
+      // Focar no campo "Produto"
+      document.getElementById('inputfield_newitem').focus();
   }
+
 
   function saveUserShopping() {
     if (userName.trim() === "") {
@@ -173,15 +192,15 @@ function App() {
             min="1"
           />
           <select
-            className="col-0.25 fs-6 rounded text-center border-0 mt-3"
-            style={{ width: '70px' }}
+            className="col-2 fs-6 rounded text-center border-0 mt-3"
+            style={{ width: '70px'}}
             value={unit}
             onChange={(e) => setUnit(e.target.value)}
           >
             <option value="g">g</option>
             <option value="kg">kg</option>
             <option value="stk">stk</option>
-            <option value="pkg">pkg</option>
+            <option value="pkg">pkt</option>
           </select>
           <select
             className="col-2 fs-6 rounded text-center border-0 kategorie mt-3"
@@ -199,15 +218,19 @@ function App() {
             <option value="Sonstiges">Sonstiges</option>
           </select>
           <div className="col-2 fs-5 input-group-append rounded text-center border-0 w-27 p-0 mt-3">
-            <button
-              onClick={updateItemList}
-              className="btn btn-outline-warning add-button d-flex align-items-center"
-              style={{ width: '185px',marginLeft:'2px', height: '40px', fontSize: '18px', alignItems: 'center', justifyContent: 'center' }}
-            >
-              {isAddButton === true ? "Hinzufügen" : "Aktualisieren"}
-      
-              <AiOutlinePlus style={{ order: '-1' }} />
-            </button>
+          <button
+  onClick={updateItemList}
+  className={`btn btn-outline-warning add-button d-flex align-items-center ${isAddButton ? '' : 'text-black font-weight-bold'}`}
+  style={{ width: '185px', marginLeft: '2px', height: '40px', fontSize: '17px', alignItems: 'center', justifyContent: 'center' }}
+>
+  {isAddButton ? "Hinzufügen" : "Aktualisieren"}
+
+  {isAddButton ? <AiFillPlusCircle style={{ marginLeft: '5px' }} /> : <BiRefresh style={{ marginLeft: '5px' }} />} {/* Condicionalmente renderiza o ícone */}
+</button>
+
+
+
+
           </div>
         </div>
         <div className="row justify-content-md-center mt-3">
@@ -254,47 +277,43 @@ function App() {
         </div>
         </div>
         <div className="container mt-3 d-flex justify-content-center">
-  <table className="table table-striped fs-5 rounded text-center" style={{ maxWidth: '1130px' }}>
-    <thead>
-      <tr style={{ height: '55px' }}>
-        <th scope="col">#</th>
-        <th scope="col">✔</th>
-        <th scope="col">Produkt</th>
-        <th scope="col">Menge</th>
-        <th scope="col">Einheit</th>
-        <th scope="col">Kategorie</th>
-        <th scope="col">Bearbeiten</th>
-        <th scope="col">Löschen</th>
-      </tr>
-    </thead>
-    <tbody>
-      {items.map((item, index) => (
-        <tr key={item.id} style={{ height: '30px' }}>
-          <td>{index + 1}</td>
-          <td><input type="checkbox" className="form-check-input" /></td>
-          <td>{item.value}</td>
-          <td>{item.quantity}</td>
-          <td>{item.unit}</td>
-          <td>{item.category}</td>
-          <td>
-            <button className="btn btn-link" onClick={() => startEditing(item)}>
-              <i className="bi bi-pencil-square text-info fs-4"></i>
-            </button>
-          </td>
-          <td>
-            <button className="btn btn-link" onClick={() => deleteItem(item.id)}>
-              <i className="bi bi-trash text-danger fs-4"></i>
-            </button>
-          </td>
+    <table className="table table-striped fs-5 text-center" style={{ maxWidth: '1130px', borderRadius: '10px' }}>
+      <thead>
+        <tr style={{ height: '65px' }}>
+          <th scope="col">#</th>
+          <th scope="col">✔</th>
+          <th scope="col">Produkt</th>
+          <th scope="col">Menge</th>
+          <th scope="col">Einheit</th>
+          <th scope="col">Kategorie</th>
+          <th scope="col">Bearbeiten</th>
+          <th scope="col">Löschen</th>
         </tr>
-      ))}
-    </tbody>
-  </table>
-</div>
-
-
-
-
+      </thead>
+      <tbody>
+        {items.map((item, index) => (
+          <tr key={item.id} style={{ height: '60px' }}>
+            <td>{index + 1}</td>
+            <td><input type="checkbox" className="form-check-input" onChange={() => handleCheck(index)} checked={item.completed} /></td>
+            <td style={{ textDecoration: item.completed ? 'line-through' : 'none' }}>{item.value}</td>
+            <td>{item.quantity}</td>
+            <td>{item.unit}</td>
+            <td>{item.category}</td>
+            <td>
+              <button className="btn btn-link" style={{ marginTop: '-5px' }} onClick={() => startEditing(item)}>
+                <i className="bi bi-pencil-square text-info fs-5"></i>
+              </button>
+            </td>
+            <td>
+              <button className="btn btn-link" style={{ marginTop: '-5px' }} onClick={() => deleteItem(item.id)}>
+                <i className="bi bi-trash text-danger fs-5"></i>
+              </button>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
 
 
 
