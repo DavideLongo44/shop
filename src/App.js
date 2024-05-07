@@ -1,11 +1,9 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 import jsPDF from 'jspdf';
-import './routes/'
-
 
 function App() {
-  // Zustände
+  
   const [items, setItems] = useState([]);
   const [isAddButton, setIsAddButton] = useState(true);
   const [quantity, setQuantity] = useState(1);
@@ -16,36 +14,6 @@ function App() {
   const [userName, setUserName] = useState("");
   const [savedUsers, setSavedUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
-  const bodyParser = require('body-parser');
-  const express = require('express'); // Express importieren
-  const artikelRoutes = require('./routes/artikel');
-  const MongoClient = require('mongodb').MongoClient;
-  const app = express();
-
-  app.use(bodyParser.json());
-
-  const DB_URL = 'mongodb://localhost:27017/shopwise';
-  let db;
-
-  MongoClient.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true }, (err, client) => {
-      if (err) {
-          console.error('Fehler beim Verbinden mit MongoDB:', err);
-          process.exit(1);
-      }
-      console.log("Datenbankverbindung hergestellt!");
-      db = client.db();
-
-      app.use('/artikel', artikelRoutes);
-
-      const PORT = 3000;
-      app.listen(PORT, () => {
-          console.log(`Server läuft auf Port ${PORT}`);
-      });
-  });
-
-// useEffect und fetch sind Frontend-Konzepte, die nicht in diesem Backend-Code verwendet werden können
-// Bitte stelle weitere Details oder den Frontend-Code bereit, um sie zu überprüfen
-
 
   useEffect(() => {
     if(selectedUser) {
@@ -53,54 +21,45 @@ function App() {
     }
   }, [selectedUser]);
 
+  
+ 
+
+  function handleItemInput(e) {
+    if (editingItem) {
+      setEditingItem({
+        ...editingItem,
+        value: e.target.value
+      });
+    }
+  }
+
   async function updateItemList() {
     let itemName = editingItem ? editingItem.value : document.getElementById("inputfield_newitem").value;
+    const productDetails = await fetchPriceAndOffer(itemName);
 
-    try {
-      const productDetails = await fetch('/api/items', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          name: itemName,
-          quantity: quantity,
-          unit: unit,
-          category: category,
-          price: db.price
-        })
-      });
-  
-      const data = await productDetails.json();
-      
-      if (editingItem) {
-        const updatedItems = items.map(item => {
-          if (item.id === editingItem.id) {
-            return {
-              ...item,
-              value: editingItem.value,
-              quantity: quantity,
-              unit: unit,
-              category: category
-            };
-          }
-          return item;
-        });
-        setItems(updatedItems);
-        setEditingItem(null);
-        // ... Bearbeitungslogik
-      } else {
-        setItems([...items, data]);
-        setCurrentId(currentId + 1);
-      }
-      
-      setIsAddButton(true);
-      setQuantity(1);
-      setUnit("stk");
-      setCategory("Lebensmittel");
-    } catch (error) {
-      console.error('Fehler beim Aktualisieren der Artikel:', error);
+    let newItem = {
+      value: itemName,
+      quantity,
+      unit,
+      id: currentId,
+      category,
+      price: productDetails.price,
+      onSaleAt: productDetails.onSaleAt
+    };
+
+    if (editingItem) {
+      const updatedItems = items.map(item => item.id === editingItem.id ? newItem : item);
+      setItems(updatedItems);
+      setEditingItem(null);
+    } else {
+      setItems([...items, newItem]);
+      setCurrentId(currentId + 1);
     }
+
+    setIsAddButton(true);
+    setQuantity(1);
+    setUnit("stk");
+    setCategory("Lebensmittel");
   }
 
   function deleteItem(idToDelete) {
