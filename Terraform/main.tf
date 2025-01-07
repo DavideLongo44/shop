@@ -135,9 +135,9 @@ resource "aws_instance" "ansible" {
   tags = {
     Name = "ansible"
   }
- lifecycle {
-  prevent_destroy = true
-}
+ //lifecycle {
+  //prevent_destroy = true
+//}
   user_data = <<-EOF
     #!/bin/bash
     yum update -y
@@ -191,9 +191,9 @@ resource "aws_instance" "ansible2" {
   tags = {
     Name = "monitor"
   }
-  lifecycle {
-   prevent_destroy = true
-}
+  //lifecycle {
+  // prevent_destroy = true
+//}
   user_data = <<-EOF
     #!/bin/bash
     yum update -y
@@ -210,9 +210,9 @@ resource "aws_lb" "example_lb" {
   load_balancer_type  = "application"
   subnets             = [aws_subnet.control-panel.id, aws_subnet.eu-central-1b.id, aws_subnet.eu-central-1c.id] 
   security_groups     = [aws_security_group.example_security_group.id]
-  lifecycle {
-    prevent_destroy = true
-  }  
+  //lifecycle {
+    //prevent_destroy = true
+  //}  
 }
 resource "aws_lb_target_group" "example_target_group" {
   name        = "example-target-group"

@@ -1,6 +1,6 @@
 describe('App', () => {
     beforeEach(() => {
-      cy.visit('/') // Assicurati di adattare l'URL in base all'indirizzo della tua app React
+      cy.visit('/') 
     })
   
     it('should display input fields for user name and new product', () => {
