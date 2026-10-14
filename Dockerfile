@@ -1,13 +1,11 @@
-#stage1
-FROM node:14 AS builder
-WORKDIR /Einkaufsliste
+FROM node:22-alpine AS builder
+WORKDIR /app
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 COPY . .
-
-#stage2 
 RUN npm run build
-FROM nginx:1.21
-COPY --from=builder /Einkaufsliste/build /usr/share/nginx/html
+
+FROM nginx:1.27-alpine
+COPY --from=builder /app/build /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
