@@ -7,7 +7,11 @@ const products = [
   { id: "milk", name: "Latte", category: "Alimentari", price: 1.29, unit: "1 l", emoji: "🥛" },
   { id: "soap", name: "Sapone", category: "Casa", price: 2.99, unit: "1 pz", emoji: "🧼" },
   { id: "headphones", name: "Cuffie", category: "Elettronica", price: 29.9, unit: "1 pz", emoji: "🎧" },
-  { id: "notebook", name: "Notebook", category: "Cartoleria", price: 3.5, unit: "1 pz", emoji: "📓" }
+  { id: "notebook", name: "Notebook", category: "Cartoleria", price: 3.5, unit: "1 pz", emoji: "📓" },
+  { id: "bread", name: "Pane", category: "Alimentari", price: 2.2, unit: "1 pz", emoji: "🍞" },
+  { id: "apples", name: "Mele", category: "Alimentari", price: 2.79, unit: "1 kg", emoji: "🍎" },
+  { id: "shampoo", name: "Shampoo", category: "Casa", price: 4.49, unit: "250 ml", emoji: "🧴" },
+  { id: "tshirt", name: "Maglietta", category: "Abbigliamento", price: 12.9, unit: "1 pz", emoji: "👕" }
 ];
 
 const send = (res, status, body) => {
@@ -50,3 +54,4 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(port, () => console.log(`Shop API listening on http://localhost:${port}`));
+
